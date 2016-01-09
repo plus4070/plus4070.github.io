@@ -8,7 +8,7 @@ comments: true
 description: NHN Entertainment Assignments#2.
 ---
 
-<img src="https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/blog.PNG"></img>
+<img src="https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/blog.PNG" />
 현재 개발중인 블로그 화면
 
 ### Assignment#2 is on GitHub
