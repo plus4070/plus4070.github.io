@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: JunYoung
+      title: JunYoung's DevDays
 
 description: Stylish Jekyll Theme
 author:
@@ -22,7 +22,7 @@ author:
   email: plus4070@gmail.com
   github: plus4070
   bio: This is JunYoung's blog.
-  postTag: forever young.
+  postTag: FOREVER YOUNG.
 
 rss_path: feed.xml
 categories_path: categories.html
