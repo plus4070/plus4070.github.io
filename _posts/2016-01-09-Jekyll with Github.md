@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Hello new world!
-categories: [general, setup, demo]
-tags: [demo, JunYoung, dbtek, setup]
+categories: [NHN Entertainment Assignments]
+tags: [Jekyll, Github, Disqus, Assignments#2]
 fullview: true
 comments: true
+description: NHN Entertainment Assignments#2.
 ---
 
 **JunYoung** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
@@ -15,4 +16,4 @@ ddfsdf
 
 ### JunYoung is on GitHub
 
-<a class="btn btn-default" href="https://github.com/plus4070/plus4070.github.io">Grab your copy now!</a>
+<a class="btn btn-default" href="https://github.com/plus4070/plus4070.github.io">Get code in Github</a>
