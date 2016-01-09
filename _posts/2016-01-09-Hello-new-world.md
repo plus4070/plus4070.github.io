@@ -11,9 +11,6 @@ comments: true
 sdfa.
 ddfsdf
 
-
-
-
 **JunYoung** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license.
 
 ### JunYoung is on GitHub
