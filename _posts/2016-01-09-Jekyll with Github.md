@@ -2,18 +2,15 @@
 layout: post
 title: Hello new world!
 categories: [NHN Entertainment Assignments]
-tags: [Jekyll, Github, Disqus, Assignments#2]
+tags: [Jekyll, Github, Disqus, Assignment#2]
 fullview: true
 comments: true
 description: NHN Entertainment Assignments#2.
 ---
 
-**JunYoung** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
-sdfa.
-ddfsdf
+<img src="https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/blog.PNG"></img>
+현재 개발중인 블로그 화면
 
-**JunYoung** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license.
-
-### JunYoung is on GitHub
+### Assignment#2 is on GitHub
 
 <a class="btn btn-default" href="https://github.com/plus4070/plus4070.github.io">Get code in Github</a>
