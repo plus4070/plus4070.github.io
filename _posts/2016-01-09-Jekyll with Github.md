@@ -67,7 +67,11 @@ Development Kit을 설치하기 위해 아래의 링크를 확인하세요.
 Devkit을 사용하기 위해서 초기화를 해야 합니다. Cmd창에서 아래의 명령으로 초기화와 Ruby와의 Binding을 해줍니다.
 
 > ####*cd C:\RubyDevkit*
+
+
 > ####*ruby dk.rb init*
+
+
 > ####*ruby dk.rb install*
 
 
@@ -154,6 +158,8 @@ Syntax highlighting을 사용하기 위해서 Pygments를 설치 해보도록 �
 
 
 > ####*cd Jekyll*
+
+
 > ####*jekyll*
 
 ![jekyll](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/jekyll.PNG?raw=true)
@@ -196,7 +202,11 @@ wdm이 설치되지 않아서 오류가 발생할 수도 있으니 wdm을 설치
 blog라는 폴더를 만들어서 생성하겠습니다.
 
 >####*jekyll new C:\Jekyll\blog*
+
+
 >####*cd blog*
+
+
 >####*dir/w*
 
 ![dir/w](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/dir.PNG?raw=true)
@@ -210,7 +220,11 @@ blog라는 폴더를 만들어서 생성하겠습니다.
 해당 파일의 아무곳에 아래의 내용을 입력하도록 합시다.
 
 >####*encoding: utf-8*
+
+
 >####*highlighter: rouge*
+
+
 >####*highlighter: pygments*
 
 <br>
