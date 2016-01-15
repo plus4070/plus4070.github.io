@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Hello new world!
-categories: [NHN Entertainment Assignments]
-tags: [Jekyll, Github, Disqus, Assignment#2]
+title: Request Method
+categories: [Tech]
+tags: [Request Method, GET, POST, GitHub]
 comments: true
-description: NHN Entertainment Assignments#2.
+description: [기술교육]#1 : Request Method (GET/POST)
 ---
 
 # Request Method? #
