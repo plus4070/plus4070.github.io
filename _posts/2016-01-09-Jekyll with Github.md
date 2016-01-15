@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello new world!
+title: Jekyll with Github
 categories: [NHN Entertainment Assignments]
 tags: [Jekyll, Github, Disqus, Assignment#2]
 comments: true
