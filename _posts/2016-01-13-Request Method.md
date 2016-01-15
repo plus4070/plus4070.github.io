@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Request Method
+title: Request Method?
 categories: [Tech]
 tags: [Request Method, GET, POST, GitHub]
 comments: true
 description: 기술교육#1: Request Method (GET/POST)
 ---
-
-## Request Method? ##
 
 #### 들어가기에 앞서 ####
 
