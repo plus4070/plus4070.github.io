@@ -7,7 +7,7 @@ comments: true
 description: 기술교육#1: Request Method (GET/POST)
 ---
 
-# Request Method? #
+## Request Method? ##
 
 #### 들어가기에 앞서 ####
 
