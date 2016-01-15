@@ -4,7 +4,7 @@ title: Request Method?
 categories: [Tech]
 tags: [Request Method, GET, POST, GitHub]
 comments: true
-description: 기술교육#1: Request Method (GET/POST)
+description: 기술교육 첫 번째 Request Method (GET/POST)
 ---
 
 #### 들어가기에 앞서 ####
