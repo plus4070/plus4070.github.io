@@ -46,7 +46,7 @@ Ruby관련 파일을 아래의 링크에서 다운받아 설치합니다.
 
 <br>
 
-![RubyInstaller](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/RubyInstaller.PNG?raw=true)
+![RubyInstaller](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/RubyInstaller.PNG?raw=true)
 
 자신의 컴퓨터 버전에 맞게 설치를 진행하세요. 저는 x64bit 버전을 다운로드 받아서 진행하였습니다.
 
@@ -113,15 +113,15 @@ pip는 따로 설치를 하지 않아도 Python을 설치할 때 자동으로 �
 
 > ####*C:\Python27;C:\Python27\Scripts;*
 
-![환경변수](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/executeSetting.PNG?raw=true)
+![환경변수](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/executeSetting.PNG?raw=true)
 
-![환경변수세팅](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/executeSetting1.PNG?raw=true)
+![환경변수세팅](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/executeSetting1.PNG?raw=true)
 
 <br>
 
 Python과 pip가 정상적으로 실행되는지 Cmd창을 켜서 확인해보세요.
 
-![실행](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/cmd.PNG?raw=true)
+![실행](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/cmd.PNG?raw=true)
 
 <br>
 
@@ -131,13 +131,13 @@ Python과 pip가 정상적으로 실행되는지 Cmd창을 켜서 확인해보�
 
 >####*python*
 
-![python](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/python.PNG?raw=true)
+![python](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/python.PNG?raw=true)
 
 <br>
 
 >####*pip*
 
-![pip](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/pip.PNG?raw=true)
+![pip](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/pip.PNG?raw=true)
 
 <br>
 
@@ -162,14 +162,14 @@ Syntax highlighting을 사용하기 위해서 Pygments를 설치 해보도록 �
 
 > ####*jekyll*
 
-![jekyll](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/jekyll.PNG?raw=true)
+![jekyll](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/jekyll.PNG?raw=true)
 <br>
 
 jekyll이 성공적으로 설치가 되었으면 아래의 명령어를 통해서 실행시켜줍니다.
 
 > ####*jekyll serve*
 
-![jekyll serve](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/jekyllserve.PNG?raw=true)
+![jekyll serve](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/jekyllserve.PNG?raw=true)
 
 <br>
 
@@ -177,7 +177,7 @@ wdm이 설치되지 않아서 오류가 발생할 수도 있으니 wdm을 설치
 
 >####*gem install wdm*
 
-![gem install wdm](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/gemwdm.PNG?raw=true)
+![gem install wdm](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/gemwdm.PNG?raw=true)
 
 <br>
 
@@ -189,7 +189,7 @@ wdm이 설치되지 않아서 오류가 발생할 수도 있으니 wdm을 설치
 
 아래와 같은 모양이 나오면 성공적으로 jekyll을 실행한 것입니다.
 
-![jekyll성공](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/localhost.PNG?raw=true)
+![jekyll성공](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/localhost.PNG?raw=true)
 
 <br>
 
@@ -209,7 +209,7 @@ blog라는 폴더를 만들어서 생성하겠습니다.
 
 >####*dir/w*
 
-![dir/w](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/dir.PNG?raw=true)
+![dir/w](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/dir.PNG?raw=true)
 <br>
 
 ###환경설정하기
@@ -233,7 +233,7 @@ blog라는 폴더를 만들어서 생성하겠습니다.
 
 >####*jekyll serve*
 
-![jekyll serve](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/jekyllserve2.PNG?raw=true)
+![jekyll serve](https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/2016-01-09-JeKyllWithGitHub/jekyllserve2.PNG?raw=true)
 
 <br>
 
@@ -249,7 +249,7 @@ blog라는 폴더를 만들어서 생성하겠습니다.
 <br>
 <br>
 
-<img src="https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/blog.PNG?raw=true" />
+<img src="https://github.com/plus4070/plus4070.github.io/blob/master/assets/resources/img/2016-01-09-JeKyllWithGitHub/blog.PNG?raw=true" />
 
 현재 개발중인 블로그 화면
 
