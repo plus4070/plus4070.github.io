@@ -7,7 +7,9 @@ comments: true
 description: 기술교육 첫 번째 Request Method (GET/POST)
 ---
 
-#### 들어가기에 앞서 ####
+## Request Method? ##
+
+### 들어가기에 앞서 ###
 
 OAuth에 대한 정보를 이해하기 위해서는 **HTTP Protocol**에 대한 공부가 먼저 필요하다. **HTTP Protocol**은 요청과 응답을 하는 부분으로 나누어져 있는데 각각의 라인들에 어떠한 값이 들어가는지에 대해 알고 있어야 할 것이다.
 
@@ -29,7 +31,7 @@ Response Header는 응답하는 Protocol/Version, 상태, 상태설명 으로 �
 
 <br>
 
-#### 메소드의 종류 ####
+### 메소드의 종류 ###
 
     Method     = "OPTIONS"                ; Section 9.2
                | "GET"                    ; Section 9.3   <-
