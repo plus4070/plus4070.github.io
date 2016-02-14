@@ -48,7 +48,7 @@ $ make
 Putty와 같은 `SSH(Secure Shell)`을 사용하여 다운받으려면 아래의 주소를 입력해 `wget`으로 받아오면 된다.
 
 ```
-$ wget http://redis.googlecode.com/files/redis-2.4.9.tar.gz
+$ wget http://redis.googlecode.com/files/redis-3.0.7.tar.gz
 ```
 
 <br>
