@@ -193,6 +193,6 @@ th {
     color: white;
 }
 
-tbody td:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background-color: #eee;
 }
