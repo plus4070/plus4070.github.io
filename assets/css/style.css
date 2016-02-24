@@ -189,6 +189,10 @@ table, th, td {
 }
 
 th {
-    background-color: #fff;
+    background-color: #777;
+    color: white;
 }
+
+tbody td:nth-child(odd) {
+    background-color: #eee;
 }
