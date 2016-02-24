@@ -52,7 +52,7 @@ description: Apache와 Tomcat의 차이점!
 
 <br>
 
-##### WAS의 종류 #####
+#### WAS의 종류 ####
 
 <br>
 
