@@ -1,1 +1,0 @@
-Search.setIndex({envversion:47,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{"\uac80\uc0c9":0,"\ubaa8\ub4c8":0,"\ubaa9\ub85d":0,"\uc0c9\uc778":0,"\ud398\uc774\uc9c0":0,content:0},titles:["Welcome to DevDays&#8217;s documentation!"],titleterms:{devdai:0,document:0,indic:0,tabl:0,welcom:0}})
