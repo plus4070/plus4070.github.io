@@ -19,7 +19,7 @@ Jekyll에 대한 설명을 확인하기 위해서는 아래의 링크를 확인�
 <br>
 
 ## Jekyll을 윈도우에서 사용하기 위해서 설치해야 하는 것들 ##
- 
+
 - Ruby
 - Jekyll
 - Python(Setuptool, pip, Pygments)
@@ -60,7 +60,7 @@ Development Kit을 설치하기 위해 아래의 링크를 확인하세요.
 
 > http://rubyinstaller.org/downloads/
 
-설치는 아래의 링크로 설치를 하는것이 무난하게 진행할 수 있습니다. 다운받은 실행파일을 RubyDevkit폴더를 만들어 압축을 풀으세요. 
+설치는 아래의 링크로 설치를 하는것이 무난하게 진행할 수 있습니다. 다운받은 실행파일을 RubyDevkit폴더를 만들어 압축을 풀으세요.
 
 > C:\RubyDevkit
 
@@ -233,7 +233,7 @@ blog라는 폴더를 만들어서 생성하겠습니다.
 
 > jekyll serve
 
-![jekyll serve](https://github.com/plus4070/plus4070.github.io/blob/master/img/2016-01-09-JeKyllWithGitHub/2016-01-09-JeKyllWithGitHub/jekyllserve2.PNG?raw=true)
+![jekyll serve](https://github.com/plus4070/plus4070.github.io/blob/master/img/2016-01-09-JeKyllWithGitHub/jekyllserve2.PNG?raw=true)
 
 <br>
 
@@ -241,7 +241,7 @@ blog라는 폴더를 만들어서 생성하겠습니다.
 
 > 127.0.0.1:4000
 
-![바뀐 site](https://github.com/plus4070/plus4070.github.io/blob/master/img/localhost2.PNG?raw=true)
+![바뀐 site](https://github.com/plus4070/plus4070.github.io/blob/master/img/2016-01-09-JeKyllWithGitHub/localhost2.PNG?raw=true)
 <br>
 
 [출처] WhaTap Tech Blog (와탭 기술 블로그)
