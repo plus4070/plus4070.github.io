@@ -1,33 +1,19 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site settings
+title: Nice Blog
+name: Nice Blog # your name
+email: youremail@example.com # your email address
+description: >
+    A Simple Jekyll Blog Theme. # this means to ignore newlines until "baseurl:"
+baseurl: "/Nice_Blog" # the subpath of your site, e.g. /blog
+url: "https://itisbenjamin.github.io" # the base hostname & protocol for your site
+twitter_username: itisbenjamin1 # your Twitter username
+github_username: itisbenjamin # your Github username
+disqus_username: itisbenjamin # your disqus username
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
+google-analytics: UA-75034651-1 # add it if you have one
+
+skillstree: true # turn on or off the skills tree in about page
+
+# Build settings
+permalink: none
 markdown: kramdown
-disqus: JunYoung
-facebook: JunYoung
-google_analytics: JunYoung
-
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: JunYoung's DevDays
-
-description: Stylish Jekyll Theme
-author:
-  name: JunYoung
-  email: plus4070@gmail.com
-  github: plus4070
-  bio: This is JunYoung's blog.
-  postTag: FOREVER YOUNG.
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-gems: [jekyll-paginate, jekyll-gist]
-
-BASE_PATH:
