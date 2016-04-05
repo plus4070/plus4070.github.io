@@ -60,6 +60,7 @@ Parameter로 서로 다른 Input을 넣어주고 이를 테스트할 수 있도�
 
 1. `@RunWith(Parameterized.class)`로 Parameterized클래스를 같은 Application Context를 가지는 오브젝트로 만들어준다.
 2. `@Parameters` 애노테이션을 이용하여 데이터의 집합을 클래스에 넘겨주도록 한다.
+
 	```
     @Parameterized.Parameters
     public static Collection primeNumbers() {
@@ -72,14 +73,17 @@ Parameter로 서로 다른 Input을 넣어주고 이를 테스트할 수 있도�
         });
     }
     ```
+    
 3. `@Parameters`애노테이션을 붙인 데이터 집합의 열과 같은 타입을 가지는 생성자를 public으로 선언한다.
 4. 데이터 집합의 각 행을 변수로 선언한다.
+
   ```
 	public PrimeNumberCheckerTest(Integer inputNumber, Boolean expectedResult) {
         this.inputNumber = inputNumber;
         this.expectedResult = expectedResult;
     }    
     ```
+    
 5. 생성한 변수를 이용하여 테스트를 진행한다.
 
 참고 : http://junit.sourceforge.net/javadoc/org/junit/runners/Parameterized.html
