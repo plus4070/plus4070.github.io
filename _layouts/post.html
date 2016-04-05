@@ -21,7 +21,7 @@ layout: default
         {% endfor %}
 	{% endif %}</div>
     </center>
-    
+
 </header>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -40,13 +40,6 @@ layout: default
     {{ content }}
 </div>
 
-<div>
-	{% if page.finished %}
-	<div class="eof"></div>
-	{% else %}
-	<div class="tbc"></div>
-	{% endif %}
-</div>
 
 {% include share.html %}
 

@@ -8,7 +8,7 @@ baseurl: "/plus4070.github.io" # the subpath of your site, e.g. /blog
 url: "https://plus4070.github.io" # the base hostname & protocol for your site
 twitter_username: plus4070 # your Twitter username
 github_username: plus4070 # your Github username
-disqus_username: plus4070 # your disqus username
+disqus_username: junyoung_oh # your disqus username
 
 google-analytics: UA-75034651-1 # add it if you have one
 
