@@ -15,6 +15,7 @@ description: 오랜만에 뒤돌아보는 Data, Stack 그리고 Heap
 
 **Data영역**은 전역변수와 static변수가 할당되는 영역이다. 프로그램의 시작과 동시에 할당되고, 프로그램이 종료되어야 메모리에서 소멸된다.
 
+
 ```
 #include <stdio.h>
 
