@@ -225,6 +225,10 @@ table, th {
     letter-spacing: 1px;
 }
 
+table tr th:first-child {
+  width: 40%;
+}
+
 table tr td:first-child {
   width: 40%;
 }
