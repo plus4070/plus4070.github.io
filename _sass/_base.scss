@@ -10,7 +10,7 @@
 
 html {
 	border-top: 4px solid #25b3bc;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 body {
@@ -223,6 +223,10 @@ table, th {
     border-collapse: collapse;
     line-height: 25px;
     letter-spacing: 1px;
+}
+
+strong {
+  font-size: 20px;
 }
 
 
