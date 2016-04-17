@@ -225,6 +225,10 @@ table, th {
     letter-spacing: 1px;
 }
 
+table tr:first-child {
+  width: 40%;
+}
+
 strong {
   font-size: 18px;
 }
