@@ -17,8 +17,6 @@ description: 요즘 누가 고정된 웹 페이지를 써? 당연히 반응형�
 
 `media query`를 적용하는 방법은 크게 3가지가 있다.
 
-<br>
-
 ##### Mark-up에서 CSS파일 분기하기 #####
 
 `<style></style>` 태그 안에 특정 조건 시 로드할 CSS파일을 `@import`하는 방식을 사용한다. 로드하는 방식에도 여러가지 방식이 존재하는데, 그 방식들은 다음과 같다.
@@ -35,8 +33,6 @@ description: 요즘 누가 고정된 웹 페이지를 써? 당연히 반응형�
 </style>
 ```
 
-<br>
-
 ##### `<style>`태그에서 `@media` 선언하기 #####
 
 `<style></style>` 태그를 선언할 때 `media`속성에 조건을 부여하고 해당 조건이 성립할 때 `<style>`태그 내의 css 구문을 실행한다. 
@@ -46,8 +42,6 @@ description: 요즘 누가 고정된 웹 페이지를 써? 당연히 반응형�
 	.h2{color:#00ffff}
 </style>
 ```
-
-<br>
 
 ##### CSS내에서 `@media` 사용하기 #####
 
@@ -66,7 +60,9 @@ description: 요즘 누가 고정된 웹 페이지를 써? 당연히 반응형�
 
 media query는 대소문자를 구별하지 않는다. 대표적으로 아래의 형태를 가진다.
 
-> @media [ONLY | NOT] media_type [and 조건] * { ... }
+```
+ @media [ONLY | NOT] media_type [and 조건] * { ... }
+```
 
 <br>
 
