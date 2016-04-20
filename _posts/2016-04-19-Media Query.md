@@ -124,4 +124,5 @@ media query의 조건에는 다른 프로그래밍이 사용하는 연산자(>, 
 // media query를 지원하는 브라우저에서 스크린(최소 640px이상)에 출력하는 경우에 실행
 ```
 
+참고 : http://nuli.navercorp.com/sharing/blog/post/573473
 
