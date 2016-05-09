@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RestTemplate?
+title: Rest하게? RestTemplate!
 categories: [NHN Entertainment DevDays]
 tags: [Spring, Rest, RestTemplate, Web, Http]
 comments: true
