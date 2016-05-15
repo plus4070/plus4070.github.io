@@ -86,43 +86,54 @@ loadEventEnd와 navigationStart의 시간차는 페이지 로딩시간을 의미
 `BrowserMob Proxy`를 다운로드하고, 셀레늄 프로젝트가 `BrowserMob Proxy`폴더 하위에 있는 lib 폴더의 jar파일을 참조하게 설정한다.
 
 1. `BrowserMob Proxy`서버를 세팅한다.
+
 ```
 //BrowserMod Proxy를 시작한다
 ProxyServer server = new ProxyServer(9090);
 server.start();
 ```
+
 2. `BrowserMob Proxy`는 `SeleniumProxy`와 `DesiredCapabilities`객체를 사용한다.
+
 ```
 //Selenium Proxy 객체를 얻는다
 Proxy proxy = server.seleniumProxy();
 DesiredCapabilites cap = new DesiredCapabilities();
 cap.setCapability(CapabilityType.PROXY, proxy);
 ```
+
 3. 프록시를 사용해 브라우저 인스턴스를 만들고 실행한다.
+
 ```
 //브라우저를 실행
 WebDriver driver = new FirefoxDriver(cap);
 ```
+
 4. HAR 파일을 생성한다.
+
 ```
 //HAR 파일을 생성하고, 라벨을 붙인다
 server.newHar("HAR_NAME");
 ```
+
 5. 애플리케이션과 상호작용하는 동작을 구현한다.
+
 ```
 //동작의 구현
 driver.get(URL);
 ...
 ```
+
 6. `BrowserMob Proxy`서버에서 측정한 성능 데이터를 수집.
-    ```
-    //HAR 데이터를 가져온다
-    Har har = server.getHar();
 
-    //파일에 HAR 데이터를 기록
-    File harFile = new File(FILE_PATH);
-    har.writeTo(harFile);
+```
+//HAR 데이터를 가져온다
+Har har = server.getHar();
 
-    //BrowserMob Proxy서버를 중지
-    server.stop();
-    ```
+//파일에 HAR 데이터를 기록
+File harFile = new File(FILE_PATH);
+har.writeTo(harFile);
+
+//BrowserMob Proxy서버를 중지
+server.stop();
+```
