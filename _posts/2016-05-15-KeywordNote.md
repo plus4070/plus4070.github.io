@@ -12,6 +12,7 @@ description: !
 ##### ACL(Access Control List) #####
 
 `ACL(Access Control List)`은 개개의 사용자들이 디렉토리나 파일과 같은 특정 시스템 개체에 접근할 수 있는 권한을 컴퓨터의 운연체계에 알리기 위해 설정해 놓은 표라고 할 수 있다.
+
 참고 : [ACL(Access Control List?)](http://plus4070.github.io/nhn%20entertainment%20devdays/ACL.html)
 
 <br>
@@ -53,6 +54,7 @@ Authentication Authorization Accounting
 ##### Cron #####
 
 `Cron시스템`이란 특정 작업을 정해진 시간에 주기적이고 반복적으로 실행하기 위한 데몬과 그 설정들이다.
+
 참고 : [CRON?](http://plus4070.github.io/nhn%20entertainment%20devdays/CRON.html)
 
 <br>
@@ -66,6 +68,7 @@ Authentication Authorization Accounting
 ##### Curl #####
 
 `curl` 은 command line 용 data transfer tool 이다. download/upload 모두 가능하며 HTTP/HTTPS/FTP/LDAP/SCP/TELNET/SMTP/POP3 등 주요한 프로토콜을 지원하고 Linux/Unix 계열 및 Windows 등 주요한 OS 에서 구동되므로 여러 플랫폼과 OS에서 유용하게 사용할 수 있다.
+
 참고 : [Curl?](http://plus4070.github.io/nhn%20entertainment%20devdays/Curl.html)
 
 <br>
@@ -114,6 +117,7 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 ##### Django #####
 
 `Django`는 파이썬으로 만들어진 무료 오픈소스 웹 어플리케이션 프레임워크이다.
+
 참고 :
 [이 밤의 끝을 장고](http://recall2300.github.io/django/2016/03/21/02/")
 [지아코 말고 지앙고](http://recall2300.github.io/django/2016/03/21/03/)
@@ -183,6 +187,7 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 ##### JSON #####
 
 `JSON(JavaScript Object Notation)`은 경량의 DATA 교환 형식이다. 이 형식은 사람이 읽고 쓰기에 용이하며, 기계가 분석하고 생성함에도 용이하다.
+
 참고 : [JSON?](http://plus4070.github.io/new%20things/JSON.html)
 
 # K #
@@ -212,6 +217,7 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 # N #
 ##### NTAF(NHN Test Automation Framework)
 <a id="fitness" href="#fit_des">FitNess</a>와 <a id="staf" href="#staf_des">STAF</a>의 장점을 결합하여 개발된 사용자 인수 테스트 자동화 프레임워크.
+
 참고 : [NTAF?](http://plus4070.github.io/nhn%20entertainment%20devdays/NTAF.html)
 
 <br>
@@ -219,6 +225,7 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 ##### Node.js #####
 
 구글의 V8 자바스크립트 엔진을 기본으로 하여 이를 실행시키는 개발 프레임워크이다. 웹 서버와 서버 측 스크립트, 그리고 지원하는 모든 웹 애플리케이션 기능을 포함한 서버 측 코드의 대부분을 `Node.js`로 작성할 수 있다.
+
 참고 : [Node.js?](http://plus4070.github.io/nhn%20entertainment%20devdays/Node.js.html)
 
 <br>
@@ -288,7 +295,8 @@ Role & Responsibility 역할과 책임
 
 ##### <span id="staf_des">STAF</span> #####
 
-`Software Test Automation Flatform`의 약자로, 분산환경 테스트 자동화를 위한 프레임워크. 다양한 분산환경에 미리 실행되어있는 `STAFProc`을 통해 통신을 하는 구조임.
+`Software Test Automation Flatform`의 약자로, 분산환경 테스트 자동화를 위한 프레임워크. 다양한 분산환경에 미리 실행되어있는 `STAFProc`을 통해 통신을 하는 구조이다.
+
 참고 : [STAF?](http://plus4070.github.io/nhn%20entertainment%20devdays/STAF.html)
 
 <br>
@@ -297,6 +305,7 @@ Role & Responsibility 역할과 책임
 
 `Selenium`은 테스트 코드 실행으로 브라우저에서의 액션을 테스트 할 수 있게 해주는 테스팅 도구다.
 `Selenium IDE`로 브라우저 상에서의 액션을 녹화해서 테스트 코드를 생성할 수 있으며, 그 테스트 코드를 Eclipse나 IntelliJ 같은 IDE의 런타임에서 JUnit 테스트와 같은 방식으로 실행해서 브라우저 상에서의 액션을 재생할 수 있다.
+
 참고 : [Selenium?](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenium.html)
 
 <br>
@@ -304,6 +313,7 @@ Role & Responsibility 역할과 책임
 ##### Singleton #####
 
 `Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다.
+
 참고 : [Singleton?](http://plus4070.github.io/nhn%20entertainment%20devdays/Singleton.html)
 
 <br>
@@ -317,6 +327,7 @@ Role & Responsibility 역할과 책임
 ##### Selenide #####
 
 `Selenium`를 기반으로 만들어진 Test Automation Framwork. `Selenium`에 비해 유동적인 API와 Ajax 등을 지원한다.
+
 참고 : http://selenide.org/, [Selenide?](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenide.html)
 
 <br>
@@ -353,6 +364,7 @@ Role & Responsibility 역할과 책임
 ##### Xvfb #####
 
 `xvfb` 는 X virtual framebuffer의 약어. Display 수단과 물리적 입력장치가 없는 서버에서 가상의 브라우저를 띄울 수 있게 한다.
+
 참고 : [Xvfb(X Virtual Frame Buffer)?](http://plus4070.github.io/nhn%20entertainment%20devdays/Xvfb.html)
 
 <br>
