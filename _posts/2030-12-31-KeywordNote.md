@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 용어정리
+title: Keyword Dic.
 categories: [NHN Entertainment DevDays]
 tags: [Keywords, Words]
 comments: true
