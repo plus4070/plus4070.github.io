@@ -11,7 +11,7 @@ description: !
 
 ##### ACL(Access Control List) #####
 
-`ACL(Access Control List)`은 개개의 사용자들이 디렉토리나 파일과 같은 특정 시스템 개체에 접근할 수 있는 권한을 컴퓨터의 운연체계에 알리기 위해 설정해 놓은 표라고 할 수 있다.
+`ACL(Access Control List)`은 개개의 사용자들이 디렉토리나 파일과 같은 특정 시스템 개체에 접근할 수 있는 권한을 컴퓨터의 운영체계에 알리기 위해 설정해 놓은 표라고 할 수 있다.
 
 참고 : [ACL(Access Control List?)](http://plus4070.github.io/nhn%20entertainment%20devdays/ACL.html)
 
