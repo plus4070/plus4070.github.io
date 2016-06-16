@@ -11,7 +11,7 @@ description: Filter와 Interceptor의 차이점?
 
 ### Interceptor ###
 
-`Interceptor`는 말 그대로 무언가를 낚아 채가는 놈을 의미하는 말이다. (여기서 무언가란 오고가는 요청을 말한다.) `Interceptor`는 `DispatcherServlet`가 컨트롤러를 호출하기 전과 후에 요청과 응답을 참조하거나 변경할 수 있는 일종의 필터를 말한다. 
+`Interceptor`는 말 그대로 무언가를 낚아 채가는 놈을 의미하는 말이다. (여기서 무언가란 오고가는 요청을 말한다.) `Interceptor`는 `DispatcherServlet`가 컨트롤러를 호출하기 전과 후에 요청과 응답을 참조하거나 변경할 수 있는 일종의 필터를 말한다.
 
 <br>
 
@@ -19,20 +19,20 @@ description: Filter와 Interceptor의 차이점?
 
 `Interceptor`는 주로 `HandlerInterceptor` 인터페이스를 구현한 클래스들을 말한다. `HandlerInterceptor`에는 아래와 같이 세 개의 메소드가 정의되어 있다.
 
-```
+```java
 public interface HandlerInterceptor {
- 
+
     boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
         throws Exception;
- 
+
     void postHandle(
             HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView)
             throws Exception;
- 
+
     void afterCompletion(
             HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
             throws Exception;
- 
+
 }
 ```
 
@@ -46,7 +46,7 @@ public interface HandlerInterceptor {
 
 ##### Interceptor의 적용 #####
 
-```
+```xml
 //servlet-context.xml
 
 <mvc:interceptors>
@@ -71,26 +71,26 @@ public interface HandlerInterceptor {
 
 ##### Filter의 구현 #####
 
-`Filter`는 `Filter` 인터페이스를 구현하여 사용할 수 있는데, `Filter`에는 아래와 같은 세 개의 메소드가 정의되어 있다. 
+`Filter`는 `Filter` 인터페이스를 구현하여 사용할 수 있는데, `Filter`에는 아래와 같은 세 개의 메소드가 정의되어 있다.
 
-`doFilter()` 메소드가 필터의 주된 기능을 하는 메소드로써, 메소드 내부에 있는 `chian.doFilter(request, response);`는 정의되어 있는 다른 필터를 호출하는 역할을 한다. 따라서 `DispatcherServlet`이 호출되기 전에 요청을 변경하고 싶은 경우에는 `chain.doFilter(request, response);`함수가 호출되기 이전에 구현을 해놓으면 된다 (`//수행 전 행동 정의` 부분). 모든 필터가 호출이 된 다음에는 `DispatcherServlet`이 마지막으로 호출된다. 
+`doFilter()` 메소드가 필터의 주된 기능을 하는 메소드로써, 메소드 내부에 있는 `chian.doFilter(request, response);`는 정의되어 있는 다른 필터를 호출하는 역할을 한다. 따라서 `DispatcherServlet`이 호출되기 전에 요청을 변경하고 싶은 경우에는 `chain.doFilter(request, response);`함수가 호출되기 이전에 구현을 해놓으면 된다 (`//수행 전 행동 정의` 부분). 모든 필터가 호출이 된 다음에는 `DispatcherServlet`이 마지막으로 호출된다.
 
 모든 Controller들이 호출되고 뷰가 완성이 된 다음에 필터를 빠져나오면서 `//수행 후 행동 정의` 부분에 구현된 동작이 실행된다. 따라서 이곳에는 응답을 변경하는 코드가 들어가면 된다.
 
 ```
 public interface Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-   		
+
         //수행 전 행동 정의
-        
+
         chain.doFilter(request, response); // 그 다음 필터를 호출.
-        
+
         //수행 후 행동 정의
     }
-    
+
     public void init() {
     }
-    
+
     public void destroy() {
     }
 }

@@ -35,14 +35,14 @@ Spring이 주로 적용되는 대상이 자바 엔터프라이즈 기술을 사�
 
 <br>
 
-```
+```java
 public class UserDao {
     private static UserDao INSTANCE;
- 
+
     private UserDao(ConnectionMaker connectionMaker){
         this.connectionMaker = connectionMaker;
     }
- 
+
     public static synchronized UserDao getInstance(){
         if(INSTANCE == null){
             INSTANCE = new UserDao(??);

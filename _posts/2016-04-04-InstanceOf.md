@@ -9,13 +9,13 @@ description: 아는 것 같지만 잘 모르는 instanceof
 
 ## InstanceOf? ##
 
-`instanceof` 연산자는 프로그램 실행시 참조 데이터형을 검사하기 위해 사용되는 연산자이다. 쉽게 말하면 데이터 타입을 리턴해주는 함수라고 생각하면 된다. 
+`instanceof` 연산자는 프로그램 실행시 참조 데이터형을 검사하기 위해 사용되는 연산자이다. 쉽게 말하면 데이터 타입을 리턴해주는 함수라고 생각하면 된다.
 
 <br>
 
 ### example(JAVA) ###
 
-```
+```java
 String word = "hello";
 System.out.println(word instanceof String);
 ```
@@ -24,7 +24,7 @@ System.out.println(word instanceof String);
 <br>
 그러나 여기서 예외경우가 몇 가지 존재하는데, 그 중 하나는 `instanceof`를 사용하는 **왼쪽 변수가 오른쪽의 클래스와 상속관계가 없는 경우**이다. 아래의 경우를 보자.
 
-```
+```java
 String word = "hello";
 System.out.println(word instanceof Integer);
 ```
@@ -35,7 +35,7 @@ System.out.println(word instanceof Integer);
 
 또 다른 예외경우는 **객체가 아닌 기본 데이터형을 비교**하고자 할 때 발생한다.
 
-```
+```java
 int num = 0;
 System.out.println(a instanceof Integer);
 ```
@@ -53,11 +53,11 @@ Javascript에는 `instanceof`뿐만 아니라 `typeof`라는 키워드가 존재
 - Object
 - function
 
-`instanceof`는 `typeof`와는 조금 다르다. Javascript의 `instanceof`는 Java에서의 `instanceof`와 비슷하다고 할 수 있다. 그렇지만 문제는 Javascript라는 언어에서 시작된다. Java와 Javascript는 엄연히 다른언어이다. 대표적인 예로 `{}`와 `[]`를 들 수 있다. `{}`는 `new Object();`와 같은 의미를 가지며, `[]`는 `new Array();`와 같은 의미를 가진다. 
+`instanceof`는 `typeof`와는 조금 다르다. Javascript의 `instanceof`는 Java에서의 `instanceof`와 비슷하다고 할 수 있다. 그렇지만 문제는 Javascript라는 언어에서 시작된다. Java와 Javascript는 엄연히 다른언어이다. 대표적인 예로 `{}`와 `[]`를 들 수 있다. `{}`는 `new Object();`와 같은 의미를 가지며, `[]`는 `new Array();`와 같은 의미를 가진다.
 
 <br>
 
-```
+```javascript
 "foo" instanceof String; // === false
 "foo" instanceof Object; // === false
 true instanceof Boolean; // === false

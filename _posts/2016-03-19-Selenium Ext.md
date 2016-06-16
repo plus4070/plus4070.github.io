@@ -15,7 +15,7 @@ description: !
 
 ### 사용 예(링크의 수를 반환하는 자바스크립트 코드) ###
 
-```
+```java
 @Test
 public void testJavaScriptCalls() {
     WebDriver driver = new ChromeDriver();
@@ -43,14 +43,14 @@ public void testJavaScriptCalls() {
 
 ### 사용 예(CONTROL 키를 이용한 다중선택) ###
 
-```
+```java
 @Test
 public void testRowSelectWithControlKey() {
     List<WebElement> tableRows = driver.findElements(By.xpath("//table[@class='iceDatTbl']/tbody/tr"));
-    
+
     //복합적인 이벤트를 발생시킬 Actions 클래스 인스턴스 생성
     Actions builder = new Actions(driver);
-    
+
 	//컨트롤 키를 이용해 2행과 4행을 선택하는 이벤트 발생    
     builder.click(tableRows.get(1)).keyDown(Keys.CONTROL)
             .click(tableRows.get(3)).keyUp(Keys.CONTROL)
@@ -71,7 +71,7 @@ public void testRowSelectWithControlKey() {
 
 ### 사용 예(더블클릭) ###
 
-```
+```java
 @Test
 public void testDoubleClickEvent() {
     WebDriver driver = new ChromeDriver();

@@ -19,7 +19,7 @@ description: !
 
 우선 `System.currentTimeMillis()`메소드를 이용해 로딩시간을 알아보는 방법을 살펴보자. driver를 이용해 특정 앨리먼트를 찾거나 로딩하기 전에 `System.currentTimeMillis()` 메소드로 현재시간을 변수에 저장하고, 모든 로딩이 끝난 이후의 현재시간을 또 다른 변수에 저장해서 두 개의 변수의 차를 이용해 로딩시간을 계산하는 방법을 사용한다.
 
-```
+```java
 long startTime = System.currentTimeMillis();
 driver.get(URL);
 
@@ -40,7 +40,7 @@ assertTrue(totalTime < 5.0);
 
 `org.apache.commons.lang.time` 패키지에 `StopWatch` 클래스를 이용하여 인스턴스를 하나 생성하고 해당 객체의 `start()`와 `stop()` 메소드를 이용해 시간을 측정하는 방법이다.
 
-```
+```java
 StopWatch timer = new StopWatch();
 timer.start();
 
@@ -61,7 +61,7 @@ log.debug(timer.getTime()+"ms");
 
 이런 API의 사용은 `window.performance` 객체의 타이밍 인터페이스 프로퍼티를 통해 이루어진다.
 
-```
+```java
 driver.get(URL);
 JavascriptExecutor js = (JavascriptExecutor) driver;
 
@@ -87,7 +87,7 @@ loadEventEnd와 navigationStart의 시간차는 페이지 로딩시간을 의미
 
 - `BrowserMob Proxy`서버를 세팅한다.
 
-```
+```java
 //BrowserMod Proxy를 시작한다
 ProxyServer server = new ProxyServer(9090);
 server.start();
@@ -95,7 +95,7 @@ server.start();
 
 - `BrowserMob Proxy`는 `SeleniumProxy`와 `DesiredCapabilities`객체를 사용한다.
 
-```
+```java
 //Selenium Proxy 객체를 얻는다
 Proxy proxy = server.seleniumProxy();
 DesiredCapabilites cap = new DesiredCapabilities();
@@ -104,21 +104,21 @@ cap.setCapability(CapabilityType.PROXY, proxy);
 
 - 프록시를 사용해 브라우저 인스턴스를 만들고 실행한다.
 
-```
+```java
 //브라우저를 실행
 WebDriver driver = new FirefoxDriver(cap);
 ```
 
 - HAR 파일을 생성한다.
 
-```
+```java
 //HAR 파일을 생성하고, 라벨을 붙인다
 server.newHar("HAR_NAME");
 ```
 
 - 애플리케이션과 상호작용하는 동작을 구현한다.
 
-```
+```java
 //동작의 구현
 driver.get(URL);
 ...
@@ -126,7 +126,7 @@ driver.get(URL);
 
 - `BrowserMob Proxy`서버에서 측정한 성능 데이터를 수집.
 
-```
+```java
 //HAR 데이터를 가져온다
 Har har = server.getHar();
 
