@@ -18,9 +18,16 @@ description: !
 
 ### ThreadPoolTaskExecutor 사용 ###
 
-**TaskExecutor**라는 이름의 인터페이스를 사용, ThreadPoolTaskExecutor를 추상화하고 정의되어있는 `execute()`메소드를 사용해 멀티쓰레드로 작업을 처리합니다. 
+**TaskExecutor**라는 이름의 인터페이스를 사용, Thread의 개수를 자동으로 조절하고 ThreadPoolTaskExecutor를 추상화하고 정의되어있는 `execute()`메소드를 사용해 멀티쓰레드로 작업을 처리합니다. 
 
 `execute()`함수의 인자로는 Runnable 인터페이스를 구현한 구현체가 들어가게 됩니다.
+
+> 1. If the number of threads is less than the corePoolSize, create a new Thread to run a new task.
+> 2. If the number of threads is equal (or greater than) the corePoolSize, put the task into the queue.
+> 3. If the queue is full, and the number of threads is less than the maxPoolSize, create a new thread to run tasks in.
+> 4. If the queue is full, and the number of threads is greater than or equal to maxPoolSize, reject the task.
+
+우선, Task를 수행하기 위해 corePoolSize보다 작으면 스레드를 생성한다. 스레드의 수가 corePoolSize와 같거나 크면 Task를 Queue에 넣는다. Queue가 꽉 차고, 스레드의 수가 maxPoolSize보다 작으면 스레드를 생성하고 Queue에 있는 Task를 처리한다. Queue도 꽉 차고 스레드의 수도 maxPoolSize에 도달하면 Task를 reject한다.
 
 <br>
 
@@ -85,7 +92,7 @@ public void run() {
 }
 ```
 
-<br><br>
+<br>
 
 ##### 비동기 메소드 호출 #####
 
@@ -98,6 +105,7 @@ for (int rowIndex = 1; rowIndex < totalRowSize; rowIndex++) {
     ...
 }	
 ```
+<br><br>
 
 ### @Async ###
 
@@ -132,3 +140,23 @@ for(int i=0; i<CALL_TIMES; i++){
     excelAsyncService.insertListAsJsonParameter(templateParameterList, excelSearch); 
 }
 ```
+
+<br><br>
+
+### Bounded Queue, Unbounded Queue
+
+##### Unbounded queues (e.g. LinkedBlockingQueue without predefined capacity)
+
+corePoolSize만큼의 모든 스레드가 바쁠 때, 태스크를 기다리게 한다.
+새 스레드를 생성하지 않으므로 maximumPoolSize도 의미 없다.
+웹서버처럼 각 태스크가 독립적인 경우 유용하다.
+돌발적으로 갑자기 태스크가 급증하는 경우에 부드럽게 처리할 수 있는 장점이 있다.
+하지만 큐에 대기하는 태스크가 매우 빠르게 증가할 수 있다.
+* ThreadPoolExecutor는 사용하는 BlockingQueue를 생성할 때, 인자를 주지 않고 capacity를 정하지 않으므로 Unbounded queue처럼 동작한다.
+
+##### Bounded queues (e.g. ArrayBlockingQueue)
+
+CPU, OS, Context-Switching등의 리소스 소진(exhaustion)을 막는데 유용하다.
+하지만 튜닝하기가 어렵다. 왜냐하면 큐 크기와 스레드풀 크기는 상호관계(trade off)가 있기 때문이다.
+예를 들어, 큰 큐와 작은 풀을 사용할 경우, 리소스의 사용은 최소화할 수 있지만, 처리량(throuput)이 매우 작아진다.
+예를 들어, 작은 큐와 큰 풀을 사용할 경우, CPU는 최대한 사용할 수 있지만, 많은 스레드에 의한 스케쥴링 오버헤드로 오히려 throuput 이 저하될 수 있다.
