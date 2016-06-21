@@ -39,15 +39,55 @@ Authentication Authorization Accounting
 
 <br>
 
+##### Advice #####
+
+JoinPoint에 삽입되어져 동작할 수 있는 코드를 말한다.
+
+<br>
+
+##### AOP(Aspect Oriented #####
+
+기능을 핵심 비지니스 로직과 공통 모듈(Cross-Cutting)로 분리하고, 핵심 로직에 영향을 미치지 않고 사이사이에 공통 모듈을 효과적으로 잘 끼워넣도록 하는 개발 방법. 코드 밖에서 설정을 통해 끼워넣는다.
+
+<br>
+
+##### ApplicationContext #####
+
+Bean들의 집합. Spring에서 사용되는 Bean들을 관리하는 역할을 한다. Context를 시작시킬 때 모든 Singleton bean을 pre-loading을 통해 생성하므로 Bean이 필요한 경우에 즉시 사용될 수 있도록 한다.
+
+<br>
+
 ##### Ajax #####
 
 비동기식 자바스크립트와 XML의 줄임말(Asynchronous Javascript and Xml). 브라우저에서 실행중인 자바스크립트에 의해 직접적으로 수행되는 GET 또는 POST 요청.
+
+<br>
+
+##### ajaxSubmit #####
+
+입력 폼이 있고, 폼 값을 사용하는 경우에 ajaxSubmit을 통해 Submit이전에 처리할 작업과 이후에 처리할 작업을 따로 정리할 수 있어 소스 가독성을 높일 수 있다.
+
+<br>
 
 # B #
 
 ##### Backend Services #####
 
 `Backend Service`는 웹 서버의 백그라운드에서 실행되는 서비스이며, 브라우저에 대한 응답을 생성하기 위해 사용되는 데이터를 제공한다. 가장 흔히 사용되는 `Backend Service`로는 정보를 저장하는데 쓰이는 데이터베이스가 있다.
+
+<br>
+
+##### Bean #####
+
+Servlet에서 Java 객체를 가지고 와서 사용하기 위해 작성된 객체를 말함. Default는 Singleton이며 추가 설정을 통해 Prototype으로도 생성할 수 있다.
+
+<br>
+
+##### BeanFactory #####
+
+Bean 객체를 관리한다. getBean메소드가 호출되기 전까지 Bean 생성을 미룬다. 이를 Lazy initialization이라고 한다.
+
+<br>
 
 # C #
 
@@ -128,7 +168,13 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 
 테이블이나 스프레드쉬트(spreadsheet)에 테스트 입력값과 예상결과를 저장하여 스크립트를 작성하고 테스트하는 기법. 이를 통해 한 개의 제어 스크립트(control script)로 해당 테이블 내에서 모든 테스트를 수행할 수 있다. 데이터 주도 테스팅은 주로 기록/재생(capture/playback) 툴 같은 테스트 실행 툴을 활용하도록 지원하는데 쓰인다.
 
+<br>
 
+##### DispatcherServlet #####
+
+Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론트 컨트롤러이다. Handler Mapping을 통해 Request에 맞는 Controller를 찾아 매핑시키고, 매핑된 Handler의 메소드를 호출한다. 또한 View가 응답으로 생성되면 요청에 대한 응답으로 뷰를 리턴해준다.
+
+<br>
 
 # E #
 
@@ -162,6 +208,13 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 
 # G #
 
+##### GroboUtils #####
+
+`GroboUtils`는 JUnit의 확장판 같은 느낌의 유틸성 클래스로, JUnit의 세 가지 주요 이슈(Integration test, Multi-threaded test, Hierarchy test)를 보완하기 위해서 만들어진 오픈소스 프로젝트를 말한다.(공식사이트 : https://community.oracle.com/docs/DOC-982943)
+참고 : [GroboUtil을 이용한 JUnit 멀티쓰레드 테스트](http://plus4070.github.io/nhn%20entertainment%20devdays/GroboUtils.html)
+
+<br>
+
 # H #
 
 ##### Hub #####
@@ -182,13 +235,33 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 
 # I #
 
+##### IoC(Inversion of Controll) #####
+
+코드 상에서 직접 애플리케이션, 객체의 생성부터 주기관리까지를 직접 관리하는 것이 아니라 컨테이너가 직접 제어권을 가지고 필요한 시점에 객체를 생성하고 소멸시키는 등 제어권을 애플리케이션이 가져간 것을 말한다.
+
+<br>
+
 # J #
 
 ##### JSON #####
 
 `JSON(JavaScript Object Notation)`은 경량의 DATA 교환 형식이다. 이 형식은 사람이 읽고 쓰기에 용이하며, 기계가 분석하고 생성함에도 용이하다.
-
 참고 : [JSON?](http://plus4070.github.io/new%20things/JSON.html)
+
+<br>
+
+##### JVM #####
+
+Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를 실행할 수 있는 주체이다. 쉽게 말해서 자바를 코딩하고 실행하기 위해서 필요한 가상의 컴퓨터라고 생각하면 된다. `JVM`은 운영체제에 의존적이므로 사용하는 OS에 맞는 `JVM`을 설치해야 한다.
+참고 : [JVM?](http://plus4070.github.io/nhn%20entertainment%20devdays/JVM.html)
+
+<br>
+
+##### JoinPoint #####
+
+크로스 컷팅 모듈의 기능이 삽입되어 동작할 수 있는 실행 가능한 특정위치. 주로 메소드가 호출, 리턴되는 시점, 필드 엑세스 하는 부분, 인스턴스가 만들어지는 부분, 예외가 던져지는 시점, 예외 핸들러가 동작하는 위치, 클래스가 초기화되는 곳 등이 대표적인 위치이다.
+
+<br>
 
 # K #
 
@@ -196,7 +269,7 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 
 ##### L4&L7 #####
 
-작성 중
+로드 밸런싱을 위해 사용되는 장비를 말한다. 둘 이상의 서버가 존재할 경우 동일한 Domain으로 접속할 때, 스위치(L4 & L7)이 각 장비의 부하를 고려하여 적당한 서버와 연결시켜주는 역할을 한다. 
 
 <br>
 
@@ -211,6 +284,12 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 ##### MDA Framework #####
 
 
+
+<br>
+
+##### Man page #####
+
+리눅스에서 명령어에 대한 설명이나 관련된 문서들. `man`이라는 명령어를 통해서 내용을 확인할 수 있다.
 
 <br>
 
@@ -277,7 +356,12 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 ##### Protocol stack #####
 
 OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드라이버', 'TCP/IP 소프트웨어' 등으로도 부른다.
-참고 : 
+
+<br>
+
+##### PointCut #####
+
+어떤 클래스의 어느 JoinPoint를 사용할 것인지를 결정하는 선택 기능. 와일드카드를 이용해 선택을 한다.
 
 <br>
 
@@ -291,7 +375,22 @@ Role & Responsibility 역할과 책임
 
 <br>
 
+##### rpm #####
+
+`Redhat Package Manager`의 약자로, 리눅스에서 사용하는 패키지관리 유틸을 의미한다. 대표적인 명령어는 아래와 같다.
+- 패키지 설치시 #rpm -ivh 패키지이름 
+- 패키지 업그레이드시 #rpm -Uvh 패키지이름 
+- 패키지 삭제시 #rpm -e 패키지이름
+
+<br>
+
 # S #
+
+##### SaltStack #####
+
+작성 중
+
+<br>
 
 ##### <span id="staf_des">STAF</span> #####
 
@@ -310,14 +409,6 @@ Role & Responsibility 역할과 책임
 
 <br>
 
-##### Singleton #####
-
-`Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다.
-
-참고 : [Singleton?](http://plus4070.github.io/nhn%20entertainment%20devdays/Singleton.html)
-
-<br>
-
 ##### Session #####
 
 `세션(Session)`이란 일정 시간동안 같은 사용자(정확하게 브라우저를 말한다)로 부터 들어오는 일련의 요구를 하나의 상태로 보고 그 상태를 일정하게 유지시키는 기술이다. 즉, 방문가자가 웹서버에 접속해 있는 상태를 하나의 단위로 보고 `Session`이라고 칭한다는 것.
@@ -332,9 +423,23 @@ Role & Responsibility 역할과 책임
 
 <br>
 
-##### SaltStack #####
+##### Servlet #####
 
-작성 중
+클라이언트의 요청을 받아 그에 대한 처리를 하고 결과를 응답으로 되돌려주는 서버 모듈을 말한다. 그렇기 때문에 사용자에 요청에 따라서 다른 HTML문서를 만들어 낸다. 이는 JSP가 받아서 뷰로 리턴.
+
+<br>
+
+##### Servlet Container #####
+
+서블릿을 서버에서 실행하기 위한 서버 프로그램. 웹 서버는 서블릿 자체를 실행하지 못하므로 JVM을 내장한 컨테이너라는 서블릿 실행환경이 필요하다.
+
+<br>
+
+##### Singleton #####
+
+`Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다.
+
+참고 : [Singleton?](http://plus4070.github.io/nhn%20entertainment%20devdays/Singleton.html)
 
 <br>
 
@@ -351,6 +456,12 @@ Role & Responsibility 역할과 책임
 
 # W #
 
+##### Weaving #####
+
+Cross-Cutting이라고도 하며, PointCut에 의해 결정된 JoinPoint에 지정된 어드바이스를 삽입하는 과정을 말한다.
+
+<br>
+
 # X #
 
 ##### XPath #####
@@ -364,7 +475,6 @@ Role & Responsibility 역할과 책임
 ##### Xvfb #####
 
 `xvfb` 는 X virtual framebuffer의 약어. Display 수단과 물리적 입력장치가 없는 서버에서 가상의 브라우저를 띄울 수 있게 한다.
-
 참고 : [Xvfb(X Virtual Frame Buffer)?](http://plus4070.github.io/nhn%20entertainment%20devdays/Xvfb.html)
 
 <br>
@@ -377,4 +487,11 @@ Role & Responsibility 역할과 책임
  
 # Y #
  
+##### Yum #####
+
+`Yellowdog Updater, Modified`의 약자로 RPM기반의 시스템(Redhat계열)을 위한 자동 업데이터이자 패키지 설치, 삭제도구 이다. RPM과 별개라고 생각하기보다는 RPM패키지를 설치하는 편리한 툴이라고 생각하면 된다.
+참고 : [Xvfb(X Virtual Frame Buffer)?](http://plus4070.github.io/nhn%20entertainment%20devdays/Yum.html)
+
+<br>
+
 # Z #
