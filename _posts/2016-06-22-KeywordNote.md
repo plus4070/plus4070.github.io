@@ -131,7 +131,7 @@ Customer Service 혹은 Customer Satisfaction
 
 ##### Chef #####
 
-작성 중
+`Chef`는 물리장비, 가상장비 등을 위치, 크기 등 조건에 관계없이 서버나 애플리케이션을 쉽게 Deploy할 수 있게 만들어주는 cloud infrastructure 자동화 프레임워크이다.
 
 <br>
 
@@ -170,6 +170,10 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론트 컨트롤러이다. Handler Mapping을 통해 Request에 맞는 Controller를 찾아 매핑시키고, 매핑된 Handler의 메소드를 호출한다. 또한 View가 응답으로 생성되면 요청에 대한 응답으로 뷰를 리턴해준다.
 
 <br>
+
+##### DSR(Direct Server Return) #####
+
+`Direct Server Return(DSR)`은 L4가 로드밸런싱을 하는 경우에 요청만 L4스위치를 거치고 응답을 주는 경우에는 스위치를 거치지 않고 Direct로 응답을 주는 모드를 말한다. 주로 요청의 크기가 응답에 비해 작은 경우에 사용된다(ex-파일 다운로드).
 
 # E #
 
@@ -258,6 +262,12 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 <br>
 
+##### JPA #####
+
+`Java Persistence API(JPA)`는 관계형 데이터베이스에 접근하기 위한 표준 ORM 기술을 제공하며, 기존에 `Enterprise Java Bean(EJB)`에서 제공되던 Entity Bean을 대체하는 기술이다. 쉽게말해, 관계형 데이터베이스에서 ORM기술을 사용하기 위한 인터페이스라고 생각하면 된다.
+
+<br>
+
 # K #
 
 # L #
@@ -339,7 +349,21 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 : 대량의 스와핑 발생, 일시적 혹은 치명적인 결함 발생
 참고 : http://www.hanbit.co.kr/network/view.html?bi_id=1313
 
+<br>
+
+##### ORM(Object-Relational Mapping) #####
+
+`ORM`은 Java와 같은 객체지향 언어에서 객체를 표현하듯이, 관계형 데이터베이스를 객체지향 프로그래밍 언어와 매핑시켜, 쉽게 표현하자는 목적으로 만들어진 기술.
+
+<br>
+
 # P #
+
+##### Partitioning #####
+
+테이블의 데이터를 파티션 단위로 나누어서 저장하는 것을 말한다. Partition key에 따라 별도의 세그먼트에 저장하며, 인덱스 또한 마찬가지로 저장한다. `Partitioning`은 관리적 측면과 성능적 측면에서 이루어진다.
+
+<br>
 
 ##### Protocol #####
 
@@ -380,9 +404,15 @@ Role & Responsibility 역할과 책임
 
 # S #
 
+##### Sharding #####
+
+관계형 데이터베이스에서 대량의 데이터를 처리하기 위해 파티셔닝을 하는 기술. 데이터베이스 자체를 분할하는 방식이기 때문에 어플리케이션 레벨에서 구현해야 한다.
+
+<br>
+
 ##### SaltStack #####
 
-작성 중
+`SaltStack`은 파이썬 기반의 자동화 시스템 관리 프로그램이다. 서버의 설정파일, 패키지 관리, 시스템 명령어들을 다수의 서버에 동시에 수행할 수 있도록 해준다. Puppet이나 Chef 또는 Ansible과 비슷한 역할을 한다.
 
 <br>
 
@@ -426,6 +456,12 @@ Role & Responsibility 역할과 책임
 
 <br>
 
+##### Stateless Protocol #####
+
+Stateless protocol은 어떠한 이전 요청과도 무관한 각각의 요청을 독립적인 트랜잭션으로 취급하는 통신 프토로콜이다.HTTP와 IP가 대표적인 Stateless protocol. Stateless protocol은 진행 중인 송수신 정보를 처리하기 위해 저장공간을 동적으로 할당할 필요가 없어 서버 디자인을 단순하게 해준다. 
+
+<br>
+
 ##### Singleton #####
 
 `Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다.
@@ -433,9 +469,21 @@ Role & Responsibility 역할과 책임
 
 <br>
 
+##### Swagger #####
+
+Code에서 문서를 만들어내는 tool.
+
+<br>
+
 # T #
 
 # U #
+
+##### UUID #####
+
+`Universally Unique IDentifier(UUID)`는 네트워크 상에서 고유한 이름을 생성하기 위해서 각각의 개별주체가 스스로 이름을 짓고 고유성을 유지하기 위해 만든 표준이다. UTC타임을 기반으로 자동생성하게 되는데 100% 고유할 수는 없지만 어느정도의 신뢰성을 가진다.
+
+<br>
 
 # V #
 
@@ -449,7 +497,7 @@ Role & Responsibility 역할과 책임
 
 ##### Weaving #####
 
-Cross-Cutting이라고도 하며, PointCut에 의해 결정된 JoinPoint에 지정된 어드바이스를 삽입하는 과정을 말한다.
+`Cross-Cutting`이라고도 하며, PointCut에 의해 결정된 JoinPoint에 지정된 어드바이스를 삽입하는 과정을 말한다.
 
 <br>
 
@@ -471,7 +519,8 @@ Cross-Cutting이라고도 하며, PointCut에 의해 결정된 JoinPoint에 지�
 
 ##### Xamarin #####
 
-작성 중
+`Xamarin`은 Android와 iOS앱을 동시에 개발할 수 있게 만들어주는 크로스 플랫폼 개발환경이다. C# 기반으로 되어있으며 Android와 iOS의 대부분의 기능을 사용할 수 있게 해준다.
+참고 : [Xamarin-Realm](https://realm.io/kr/news/introducing-xamarin/)
 
 <br>
  
