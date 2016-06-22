@@ -7,7 +7,7 @@ comments: true
 description: !
 ---
 
-# A #
+## A ##
 
 ##### ACL(Access Control List) #####
 
@@ -67,7 +67,7 @@ Bean들의 집합. Spring에서 사용되는 Bean들을 관리하는 역할을 �
 
 <br>
 
-# B #
+## B ##
 
 ##### Backend Services #####
 
@@ -87,7 +87,7 @@ Bean 객체를 관리한다. getBean메소드가 호출되기 전까지 Bean 생
 
 <br>
 
-# C #
+## C ##
 
 ##### Cron #####
 
@@ -135,7 +135,7 @@ Customer Service 혹은 Customer Satisfaction
 
 <br>
 
-# D #
+## D ##
 
 ##### DNS #####
 
@@ -175,9 +175,9 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 `Direct Server Return(DSR)`은 L4가 로드밸런싱을 하는 경우에 요청만 L4스위치를 거치고 응답을 주는 경우에는 스위치를 거치지 않고 Direct로 응답을 주는 모드를 말한다. 주로 요청의 크기가 응답에 비해 작은 경우에 사용된다(ex-파일 다운로드).
 
-# E #
+## E ##
 
-# F #
+## F ##
 
 ##### <span id="fit_des">Fit</span> #####
 
@@ -205,7 +205,7 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 <br>
 
-# G #
+## G ##
 
 ##### GroboUtils #####
 
@@ -214,7 +214,7 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 <br>
 
-# H #
+## H ##
 
 ##### Hub #####
 
@@ -232,7 +232,7 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 위의 `HTTP`에 보안 계층인 `SSL/TLS`를 추가한 프로토콜. 웹 서버가 브라우저에게 인증서를 제공함으로써 보안성 있는 통신을 할 수 있도록 한다. 사용자는 접속을 허용하기 전에 인증서 수락 여부를 결정할 수 있음.
 
-# I #
+## I ##
 
 ##### IE-CC Filtering #####
 
@@ -247,7 +247,7 @@ IE에서의 CSS 출력 버그문제를 해결하기 위해 MS에서 제시한 �
 
 <br>
 
-# J #
+## J ##
 
 ##### JSON #####
 
@@ -275,9 +275,9 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 <br>
 
-# K #
+## K ##
 
-# L #
+## L ##
 
 ##### L4&L7 #####
 
@@ -285,7 +285,7 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 <br>
 
-# M #
+## M ##
 
 ##### MongoDB #####
 
@@ -305,7 +305,7 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 <br>
 
-# N #
+## N ##
 
 ##### NTAF(NHN Test Automation Framework)
 <a id="fitness" href="#fit_des">FitNess</a>와 <a id="staf" href="#staf_des">STAF</a>의 장점을 결합하여 개발된 사용자 인수 테스트 자동화 프레임워크.
@@ -345,7 +345,7 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 - n : IP주소나 포트 번호를 번호로 표시 
 - o : 소켓을 사용하고 있는 프로그램의 PID표시
 
-# O #
+## O ##
 
 ##### OOM(Out of Memory) #####
 
@@ -364,7 +364,7 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 <br>
 
-# P #
+## P ##
 
 ##### Partitioning #####
 
@@ -390,9 +390,9 @@ OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드
 
 <br>
 
-# Q #
+## Q ##
 
-# R #
+## R ##
 
 ##### R & R #####
 Role & Responsibility 역할과 책임   
@@ -409,7 +409,7 @@ Role & Responsibility 역할과 책임
 
 <br>
 
-# S #
+## S ##
 
 ##### Sharding #####
 
@@ -482,9 +482,9 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
 
-# T #
+## T ##
 
-# U #
+## U ##
 
 ##### UUID #####
 
@@ -492,7 +492,7 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
 
-# V #
+## V ##
 
 ##### virtualenv #####
 독립적인 `python`환경을 만드는데 사용되는 툴.
@@ -500,7 +500,7 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
 
-# W #
+## W ##
 
 ##### Weaving #####
 
@@ -508,7 +508,7 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
 
-# X #
+## X ##
 
 ##### XPath #####
 
@@ -531,7 +531,7 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
  
-# Y #
+## Y ##
  
 ##### Yum #####
 
@@ -540,4 +540,4 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
 
-# Z #
+## Z ##
