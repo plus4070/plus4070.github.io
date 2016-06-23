@@ -55,6 +55,12 @@ Bean들의 집합. Spring에서 사용되는 Bean들을 관리하는 역할을 �
 
 <br>
 
+##### Apache MPM #####
+
+`Apache Multi-Processing Module(MPM)`은 <a id="prefork_des">prefork</a>방식과 <a id="worker_des">worker</a>방식을 지원하는데, MPM 모듈은 요청을 받아들이고 받아들인 요청을 어떠한 방식으로 처리할지 선택해서 사이트별 요구조건에 특화된 웹 서버를 구성할 수 있도록 한다.
+
+<br>
+
 ##### Ajax #####
 
 비동기식 자바스크립트와 XML의 줄임말(Asynchronous Javascript and Xml). 브라우저에서 실행중인 자바스크립트에 의해 직접적으로 수행되는 GET 또는 POST 요청.
@@ -109,6 +115,12 @@ Bean 객체를 관리한다. getBean메소드가 호출되기 전까지 Bean 생
 
 <br>
 
+##### CI #####
+
+`Continuous Integration(CI)`란 팀의 구성원들이 작업한 내용을 정기적으로 통합하는 것을 말한다. 하나의 프로젝트를 리드하는 매니저가 일을 여러가지로 나눠서 팀원들에게 부냅하고 각자 개발한 부분을 Git이나 SVN을 통해 Submit된 코드들을 정기적으로 통합하는 것이다.
+
+<br>
+
 ##### CentOS #####
 
 서버 리눅스 시장의 1인자인 RHEL(Redhet Enterprise Linux)를 무료로 사용할 수 있는 배포판. 
@@ -116,10 +128,15 @@ Bean 객체를 관리한다. getBean메소드가 호출되기 전까지 Bean 생
 
 <br>
 
+##### Composite Pattern #####
+
+클라이언트 입장에서 메시지 수신자가 부분인지 전체인지에 상관없이 동일한 메시지를 이용해 동일한 방식으로 대상과 상호작용 하고 싶을 때 사용하는 패턴. GOF의 디자인패턴에 소개되어있는 패턴 중 하나이다.
+
+<br>
+
 ##### CS #####
 
-Customer Service 혹은 Customer Satisfaction
-둘다 고객지원, FAQ 같은 소비자와 소통하는 부서 혹은 직무에서 사용한다.
+Customer Service 혹은 Customer Satisfaction. 둘 다 고객지원, FAQ 같은 소비자와 소통하는 부서 혹은 직무에서 사용한다.
 
 <br>
 
@@ -136,6 +153,12 @@ Customer Service 혹은 Customer Satisfaction
 <br>
 
 ## D ##
+
+##### Design Pattern #####
+
+전문가들이 반복적으로 사용하는 해결 방법을 정의해 놓은 설계 탬플릿을 말한다. 해답이 아닌 일종의 Best practice이기 때문에 설계할 애플리케이션의 성격에 맞는 디자인 패턴을 적용하는 것이 바람직하다.
+
+<br>
 
 ##### DNS #####
 
@@ -201,7 +224,7 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 ##### FTP #####
 
-`FTP*File Transfer Protocol)`는 파일을 업로드하거나 다운로드할 때 사용하는 프로토콜을 말한다. `FTP Protocol`을 이용하여 파일 전송을 하는 프로그램도 `FTP`라고 한다. 
+`FTP(File Transfer Protocol)`는 파일을 업로드하거나 다운로드할 때 사용하는 프로토콜을 말한다. `FTP Protocol`을 이용하여 파일 전송을 하는 프로그램도 `FTP`라고 한다. 
 
 <br>
 
@@ -372,6 +395,12 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 <br>
 
+##### <span id="prefork_des">prefork</span> #####
+
+`Apache MPM`모듈의 요청 처리방식 중 하나로, 프로세스당 스레드를 하나만 사용하고 하나의 요청에 대해 별게의 프로세스를 사용한다. 요청당 프로세스를 만들기 때문에 메모리 사용량이 큼
+
+<br>
+
 ##### Protocol #####
 
 통신 동작의 규칙을 정한 것을 `Protocol`이라고 부른다.
@@ -393,6 +422,12 @@ OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드
 ## Q ##
 
 ## R ##
+
+##### RDD #####
+
+`Responsibility-Driven Development`는 협력에 필요한 책임들을 식별하고 적합한 객체에게 책임을 할당하는 방식으로 애플리케이션을 설계한다.
+
+<br>
 
 ##### R & R #####
 Role & Responsibility 역할과 책임   
@@ -484,6 +519,13 @@ Code에서 문서를 만들어내는 tool.
 
 ## T ##
 
+##### TDD #####
+
+`Test-Driven Development(TDD)`는 테스트를 먼저 작성하고 그 테스트를 통과하는 실제 구현체를 작성하는 방식으로 개발을 진행한다. 여기서 주의할 점은, `TDD`는 테스트코드를 작성하는 것이 목적이 아니라, 설계가 적합한지를 테스트를 통해 확인한다는 것이다.
+참고 : [STAF?](http://plus4070.github.io/nhn%20entertainment%20devdays/TDD.html)
+
+<br>
+
 ## U ##
 
 ##### UUID #####
@@ -505,6 +547,12 @@ Code에서 문서를 만들어내는 tool.
 ##### Weaving #####
 
 `Cross-Cutting`이라고도 하며, PointCut에 의해 결정된 JoinPoint에 지정된 어드바이스를 삽입하는 과정을 말한다.
+
+<br>
+
+##### <span id="worker_des>worker</span> #####
+
+`Apache MPM`모듈의 요청 처리방식 중 하나로, 하나의 프로세스당 여러개의 worker스레드를 사용한다. 스레드 방식이기 때문에 메모리를 공유, 통신량이 많은 서버에 적당하다. 멀티스레드에서 발생할 수 있는 race condition에 대한 주의가 필요함
 
 <br>
 
