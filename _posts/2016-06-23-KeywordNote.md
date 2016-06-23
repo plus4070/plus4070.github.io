@@ -230,6 +230,12 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 ## G ##
 
+##### Gecko #####
+
+모질라에서 직접 만든 Rendering Engine이다. 파이어폭스 브라우저에서 사용한다.
+
+<br>
+
 ##### GroboUtils #####
 
 `GroboUtils`는 JUnit의 확장판 같은 느낌의 유틸성 클래스로, JUnit의 세 가지 주요 이슈(Integration test, Multi-threaded test, Hierarchy test)를 보완하기 위해서 만들어진 오픈소스 프로젝트를 말한다.(공식사이트 : https://community.oracle.com/docs/DOC-982943)
@@ -423,6 +429,12 @@ OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드
 
 ## R ##
 
+##### Rendering engine #####
+
+`Rendering Engine`의 역할을 요청 받은 내용을 브라우저에 표시하는 일이다.
+
+<br>
+
 ##### RDD #####
 
 `Responsibility-Driven Development`는 협력에 필요한 책임들을 식별하고 적합한 객체에게 책임을 할당하는 방식으로 애플리케이션을 설계한다.
@@ -547,6 +559,12 @@ Code에서 문서를 만들어내는 tool.
 ##### Weaving #####
 
 `Cross-Cutting`이라고도 하며, PointCut에 의해 결정된 JoinPoint에 지정된 어드바이스를 삽입하는 과정을 말한다.
+
+<br>
+
+##### Webkit #####
+
+사파리와 크롬 브라우저에서 사용하는 Rendering Engine이다.
 
 <br>
 
