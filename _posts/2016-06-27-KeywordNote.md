@@ -245,6 +245,12 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 ## H ##
 
+##### Hipervisor #####
+
+호스트 컴퓨터에서 다수의 운영체제를 동시에 실행하기 위한 논리적 플랫폼을 말한다. 가상화 머신 모니터라고도 부른다.
+
+<br>
+
 ##### Hub #####
 
 패킷을 중계하는 장치의 일종이며, 리피터 허브와 스위칭 허브의 두가지 유형이 존재한다.
@@ -458,6 +464,13 @@ Role & Responsibility 역할과 책임
 
 ## S ##
 
+##### Sandbox #####
+
+Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이다. 악의적인 사이트나 시스템 파괴 소프트웨어를 접할 때 이를 막아주는 역할을 한다.
+참고 : http://www.20thingsilearned.com/en-US/browser-protection/3
+
+<br>
+
 ##### Sharding #####
 
 관계형 데이터베이스에서 대량의 데이터를 처리하기 위해 파티셔닝을 하는 기술. 데이터베이스 자체를 분할하는 방식이기 때문에 어플리케이션 레벨에서 구현해야 한다.
@@ -551,6 +564,12 @@ Code에서 문서를 만들어내는 tool.
 ##### virtualenv #####
 독립적인 `python`환경을 만드는데 사용되는 툴.
 참고 : https://pypi.python.org/pypi/virtualenv
+
+<br>
+
+##### Virtual Machine #####
+
+`Virtual Machine(VM)`은 컴퓨팅 환경을 소프트웨어로 구현한 것, 즉 컴퓨터를 가상으로 하나 생성하는 소프트웨어이다. 이 가상환경에 OS를 설치하거나 응용프로그램을 설치할 수 있다. VM은 <a id="system_vm_des>System Virtual Machine</a>과 <a id="process_vm_machine>Process Virtual Machine</a>으로 나뉜다.
 
 <br>
 
