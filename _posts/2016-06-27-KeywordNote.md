@@ -208,6 +208,12 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 ## E ##
 
+##### Entity #####
+
+`Entity`는 객체의 id를 기준으로 비교하는 객체를 말한다. `Entity`는 mutable 하기 때문에 객체의 값, Attribute이 달라도 같은 객체라고 판단할 수 있다.
+
+<br>
+
 ## F ##
 
 ##### <span id="fit_des">Fit</span> #####
@@ -574,6 +580,12 @@ Code에서 문서를 만들어내는 tool.
 <br>
 
 ## V ##
+
+##### Value Object(VO) #####
+
+`Value Object`는 객체가 가지는 값에만 의미를 가지는 객체를 말한다. 따라서 어떠한 객체의 id가 무엇인지와는 상관없이 가지는 값, 즉 Attribute에 따라서 객체를 구별한다.
+
+<br>
 
 ##### Vagrant #####
 
