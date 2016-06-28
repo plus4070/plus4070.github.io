@@ -70,6 +70,13 @@ Bean들의 집합. Spring에서 사용되는 Bean들을 관리하는 역할을 �
 
 <br>
 
+##### Appium #####
+
+`Appium`은 네이티브와 하이브리드 모바일 앱을 위한 오픈 소스 테스트 자동화 프레임워크다. 애피엄은 iOS와 안드로이드상의 네이티브와 하이브리드 모바일 앱 모두의 테스팅을 위한 광범위한 플랫폼을 제공한다. <br> 
+참고 : [Appium](http://appium.io)
+
+<br>
+
 ## B ##
 
 ##### Backend Services #####
@@ -211,6 +218,12 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 <br>
 
+##### Exercism #####
+
+`Exercism`은 프로그래밍 언어를 배우는 이들은 위한 협력적 교육 툴이다. 
+
+<br>
+
 ## F ##
 
 ##### Framework #####
@@ -253,9 +266,21 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 ## G ##
 
+##### Goast #####
+
+`Goast`는 사용자 스스로 블로그를 작성하고 포스트할 수 있게 해주는 툴을 제공하는 오픈소스이다.
+
+<br>
+
 ##### Gecko #####
 
 모질라에서 직접 만든 Rendering Engine이다. 파이어폭스 브라우저에서 사용한다.
+
+<br>
+
+##### Gem #####
+
+`Gem`이란 Ruby에서 지원하는 패키지 시스템으로, Linux에서 사용하는 `yum`과 비슷한 일을 한다. 인터넷에 올라와있는 버전과 비교를 해서 최신의 버전으로 설치하는 등의 패키지 관리를 할 수 있다.
 
 <br>
 
@@ -310,6 +335,12 @@ IE에서의 CSS 출력 버그문제를 해결하기 위해 MS에서 제시한 �
 ##### Interface #####
 
 `Interface`란 어떤 두 사물이 마주치는 경계 지점에서 서로 상호작용할 수 있게 이어주는 방법이나 장치를 의미한다. 사람들은 말이라는 인터페이스를 통해 상호작용 한다(GUI - Graphic User Interface, API - Application Programming Interface 등).
+
+<br>
+
+##### InfluxDB #####
+
+`InfulxDB`는 시계열, 이벤트, 매트릭스 데이터베이스다. Go언어로 작성되었고 외부 의존도가 없어서 한번 설치하면 더 이상 관리할 필요가 없다는 점에서 Redis, HBase 등과는 다르다. 분배와 수평적 확장을 염두에 두고 설게되었다.
 
 <br>
 
@@ -429,6 +460,19 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 ##### ORM(Object-Relational Mapping) #####
 
 `ORM`은 Java와 같은 객체지향 언어에서 객체를 표현하듯이, 관계형 데이터베이스를 객체지향 프로그래밍 언어와 매핑시켜, 쉽게 표현하자는 목적으로 만들어진 기술.
+
+<br>
+
+##### OpenDaylight #####
+
+`OpenDaylight`는 다른 요소 없이 직접적으로 배치할 수 있는 완전하게 기능적인 SDN 플랫폼을 제공하는 것을 목표로하고있다. <br>
+참고 : [OpenDaylight](http://opendaylight.org)
+
+<br>
+
+##### OpenIoT #####
+
+`OpenIoT`는 유럽연합 집행위원회의 자금지원을 받은 연구 프로젝트로 클라우드 컴퓨팅 제공 모델을 활용하는 새로운 오픈, 대규모, 지능형 사물인터넷 애플리케이션을 새롭게 총체적으로 활성화하는 것이 목표다.
 
 <br>
 
@@ -559,6 +603,13 @@ Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이
 
 <br>
 
+##### Serverspec #####
+
+은 다른 모든 구성 관리 툴과 독립적으로 서버 구성을 테스트하는 단순한 접근방식을 제공한다. 서버스펙을 사용하면 서버 구성을 확인할 수 있는 R스펙(Rspec) 테스트를 작성할 수 있다. <br>
+참고 : [Serverspec](http://serverspec.org)
+
+<br>
+
 ##### Stateless Protocol #####
 
 Stateless protocol은 어떠한 이전 요청과도 무관한 각각의 요청을 독립적인 트랜잭션으로 취급하는 통신 프토로콜이다.HTTP와 IP가 대표적인 Stateless protocol. Stateless protocol은 진행 중인 송수신 정보를 처리하기 위해 저장공간을 동적으로 할당할 필요가 없어 서버 디자인을 단순하게 해준다. 
@@ -584,6 +635,13 @@ Code에서 문서를 만들어내는 tool.
 
 `Test-Driven Development(TDD)`는 테스트를 먼저 작성하고 그 테스트를 통과하는 실제 구현체를 작성하는 방식으로 개발을 진행한다. 여기서 주의할 점은, `TDD`는 테스트코드를 작성하는 것이 목적이 아니라, 설계가 적합한지를 테스트를 통해 확인한다는 것이다. <br>
 참고 : [TDD?](http://plus4070.github.io/nhn%20entertainment%20devdays/TDD.html)
+
+<br>
+
+##### Tox #####
+
+`Tox`는 AIM, 스카이프(Skype)등을 대체하기 위한 보안 IM과 영상채팅 애플리케이션이다. 미국 국가 안보국(NSA)의 프라이버시 침해 논란 이후 상당히 관심을 받았다. 톡스는 사용이 쉬운 올-인-원 소통 플랫폼으로 문자, 음성, 영상 채팅이 가능하고, 업계 최고 수준의 암호화를 사용해 완전한 프라이버시를 제공한다.<br>
+참고 : [Tox](http://tox.im) 
 
 <br>
 
@@ -661,6 +719,13 @@ Code에서 문서를 만들어내는 tool.
 
 `Xamarin`은 Android와 iOS앱을 동시에 개발할 수 있게 만들어주는 크로스 플랫폼 개발환경이다. C# 기반으로 되어있으며 Android와 iOS의 대부분의 기능을 사용할 수 있게 해준다. <br>
 참고 : [Xamarin-Realm](https://realm.io/kr/news/introducing-xamarin/)
+
+<br>
+
+##### Xprivacy #####
+
+`Xprivacy`는 애플리케이션을 통한 데이터 유출을 막기 위해 만들어졌다. 앱에 가짜 데이터를 피딩하거나 아예 데이터를 들이지 않는 방식으로 애플리케이션이 접속할 수 있는 데이터 카테고리를 제한시킨다. 예를 들어, 애플리케이션이 연락처에 접속하는 것을 제한하면, X프라이버시가 빈 연락처 목록을 앱에 보낼 것이다. <br>
+참고 : [Xprivacy](https://github.com/M66B/XPrivacy)
 
 <br>
  
