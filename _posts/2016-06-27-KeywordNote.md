@@ -490,12 +490,8 @@ Docker와 같이 애플리케이션을 패키징하는 플랫폼이지만 Docker
 
 ##### OOM(Out of Memory) #####
 
-원인 
-: 메모리 부족
-결과 
-: 메모리 추가 할당 불가 / 커널에 의한 테스크 제거(kill)
-: 대량의 스와핑 발생, 일시적 혹은 치명적인 결함 발생
-참고 : http://www.hanbit.co.kr/network/view.html?bi_id=1313
+메모리 부족에 의해 발생하는 에러. 메모리 추가 할당 불가, 커널에 의한 테스크 제거(kill), 대량의 스와핑 발생, 일시적 혹은 치명적인 결함 발생등을 유발한다. <br>
+참고 : [Hanbit.co.kr](http://www.hanbit.co.kr/network/view.html?bi_id=1313)
 
 <br>
 
