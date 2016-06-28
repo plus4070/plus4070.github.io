@@ -24,15 +24,12 @@ description: !
 
 ##### AAA #####
 
-Authentication Authorization Accounting  
-
 네트워크에 있어 보안의 세 가지 요소.
 
-- 사람의 신분을 확인하는 보안
-- 검증된 사용자에게 권한과 서비스 허용
-- 사용자의 자원사용정보를 모아 과금, 리포팅, 용량증설등을 하는 과금(혹은 계정관리)
+- Authentication : 사람의 신분을 확인하는 보안
+- Authorization : 검증된 사용자에게 권한과 서비스 허용
+- Accounting : 사용자의 자원사용정보를 모아 과금, 리포팅, 용량증설등을 하는 과금(혹은 계정관리) <br>
 
-이 셋을 뜻한다. <br>
 참고 : [shepherd - tistory : AAA](http://shepherd44.tistory.com/16)
 
 <br>
@@ -177,7 +174,7 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 
 `Django`는 파이썬으로 만들어진 무료 오픈소스 웹 어플리케이션 프레임워크이다. <br>
 참고 :
-[이 밤의 끝을 장고](http://recall2300.github.io/django/2016/03/21/02/") <br>
+[이 밤의 끝을 장고](http://recall2300.github.io/django/2016/03/21/02/"), 
 [지아코 말고 지앙고](http://recall2300.github.io/django/2016/03/21/03/)
 
 <br>
