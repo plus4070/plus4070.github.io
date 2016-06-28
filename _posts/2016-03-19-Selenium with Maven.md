@@ -137,11 +137,11 @@ $ yum install firefox.x86_64 : Mozilla Firefox Web browser
 
 Chrome 웹 드라이버 설치 (Chrome은 브라우저와 웹 드라이버를 모두 설치해야 한다.)
 
-![크롬 브라우저 설치](http://chrome.richardlloyd.org.uk/install_chrome.sh)
-![크롬 드라이버 설치](http://chromedriver.storage.googleapis.com/index.html)
+[크롬 브라우저 설치](http://chrome.richardlloyd.org.uk/install_chrome.sh)
+[크롬 드라이버 설치](http://chromedriver.storage.googleapis.com/index.html)
 
 
-참고 : ![Xvfb?](http://plus4070.github.io/nhn%20entertainment%20devdays/Xvfb.html)
+참고 : [Xvfb?](http://plus4070.github.io/nhn%20entertainment%20devdays/Xvfb.html)
 
 <br>
 
