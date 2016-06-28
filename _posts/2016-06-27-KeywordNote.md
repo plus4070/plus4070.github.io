@@ -672,7 +672,7 @@ Code에서 문서를 만들어내는 tool.
 ##### Yum #####
 
 `Yellowdog Updater, Modified`의 약자로 RPM기반의 시스템(Redhat계열)을 위한 자동 업데이터이자 패키지 설치, 삭제도구 이다. RPM과 별개라고 생각하기보다는 RPM패키지를 설치하는 편리한 툴이라고 생각하면 된다. <br>
-참고 : [Xvfb(X Virtual Frame Buffer)?](http://plus4070.github.io/nhn%20entertainment%20devdays/Yum.html)
+참고 : [Yum?](http://plus4070.github.io/nhn%20entertainment%20devdays/Yum.html)
 
 <br>
 
