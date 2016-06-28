@@ -37,7 +37,7 @@ description: !
 
 자바스크립트를 테스트에 사용하거나, 복잡하고 다양한 동작을 입력하기 위해서는 ‘JavascriptExecutor’ interface나 ‘Actions’ class를 이용하여 동작을 입력해주어야 함.
 
-참고 : ![JavascriptExecutor&Actions](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenium-Ext.html)
+참고 : [JavascriptExecutor&Actions](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenium-Ext.html)
 
 ##### ID 기반 테스트 #####
 
@@ -72,7 +72,7 @@ Thread.sleep(TIMEOUT_LONG_MILLISEC);
 
 selenium-server를 이용하여 Hub와 Node로 이루어진 Grid를 구성할 수 있다. 아래의 주소에서 selenium-server-standalone-x.xx.x.jar 파일을 다운로드한다.
 
-![Selenium HQ](http://www.seleniumhq.org/download/)
+[Selenium HQ](http://www.seleniumhq.org/download/)
 
 다운로드 받은 파일을 2개의 command 창에서 각각 아래의 명령어를 입력.
 
