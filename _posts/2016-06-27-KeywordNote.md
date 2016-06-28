@@ -11,7 +11,7 @@ description: !
 
 ##### ACL(Access Control List) #####
 
-`ACL(Access Control List)`은 개개의 사용자들이 디렉토리나 파일과 같은 특정 시스템 개체에 접근할 수 있는 권한을 컴퓨터의 운영체계에 알리기 위해 설정해 놓은 표라고 할 수 있다.
+`ACL(Access Control List)`은 개개의 사용자들이 디렉토리나 파일과 같은 특정 시스템 개체에 접근할 수 있는 권한을 컴퓨터의 운영체계에 알리기 위해 설정해 놓은 표라고 할 수 있다. <br>
 참고 : [ACL(Access Control List?)](http://plus4070.github.io/nhn%20entertainment%20devdays/ACL.html)
 
 <br>
@@ -32,7 +32,7 @@ Authentication Authorization Accounting
 - 검증된 사용자에게 권한과 서비스 허용
 - 사용자의 자원사용정보를 모아 과금, 리포팅, 용량증설등을 하는 과금(혹은 계정관리)
 
-이 셋을 뜻한다.
+이 셋을 뜻한다. <br>
 참고 : [shepherd - tistory : AAA](http://shepherd44.tistory.com/16)
 
 <br>
@@ -57,17 +57,17 @@ Bean들의 집합. Spring에서 사용되는 Bean들을 관리하는 역할을 �
 
 ##### Apache MPM #####
 
-`Apache Multi-Processing Module(MPM)`은 <a id="prefork_des">prefork</a>방식과 <a id="worker_des">worker</a>방식을 지원하는데, MPM 모듈은 요청을 받아들이고 받아들인 요청을 어떠한 방식으로 처리할지 선택해서 사이트별 요구조건에 특화된 웹 서버를 구성할 수 있도록 한다.
+`Apache Multi-Processing Module(MPM)`은 <a href="#prefork_des">prefork</a>방식과 <a href="#worker_des">worker</a>방식을 지원하는데, MPM 모듈은 요청을 받아들이고 받아들인 요청을 어떠한 방식으로 처리할지 선택해서 사이트별 요구조건에 특화된 웹 서버를 구성할 수 있도록 한다.
 
 <br>
 
 ##### Ajax #####
 
-비동기식 자바스크립트와 XML의 줄임말(Asynchronous Javascript and Xml). 브라우저에서 실행중인 자바스크립트에 의해 직접적으로 수행되는 GET 또는 POST 요청.
+비동기식 자바스크립트와 XML의 줄임말(`Asynchronous Javascript and Xml`). 브라우저에서 실행중인 자바스크립트에 의해 직접적으로 수행되는 GET 또는 POST 요청을 말한다.
 
 <br>
 
-##### ajaxSubmit #####
+##### AjaxSubmit #####
 
 입력 폼이 있고, 폼 값을 사용하는 경우에 ajaxSubmit을 통해 Submit이전에 처리할 작업과 이후에 처리할 작업을 따로 정리할 수 있어 소스 가독성을 높일 수 있다.
 
@@ -97,7 +97,7 @@ Bean 객체를 관리한다. getBean메소드가 호출되기 전까지 Bean 생
 
 ##### Cron #####
 
-`Cron시스템`이란 특정 작업을 정해진 시간에 주기적이고 반복적으로 실행하기 위한 데몬과 그 설정들이다.
+`Cron시스템`이란 특정 작업을 정해진 시간에 주기적이고 반복적으로 실행하기 위한 데몬과 그 설정들이다. <br>
 참고 : [CRON?](http://plus4070.github.io/nhn%20entertainment%20devdays/CRON.html)
 
 <br>
@@ -110,7 +110,7 @@ Bean 객체를 관리한다. getBean메소드가 호출되기 전까지 Bean 생
 
 ##### Curl #####
 
-`curl` 은 command line 용 data transfer tool 이다. download/upload 모두 가능하며 HTTP/HTTPS/FTP/LDAP/SCP/TELNET/SMTP/POP3 등 주요한 프로토콜을 지원하고 Linux/Unix 계열 및 Windows 등 주요한 OS 에서 구동되므로 여러 플랫폼과 OS에서 유용하게 사용할 수 있다.
+`curl` 은 command line 용 data transfer tool 이다. download/upload 모두 가능하며 HTTP/HTTPS/FTP/LDAP/SCP/TELNET/SMTP/POP3 등 주요한 프로토콜을 지원하고 Linux/Unix 계열 및 Windows 등 주요한 OS 에서 구동되므로 여러 플랫폼과 OS에서 유용하게 사용할 수 있다. <br>
 참고 : [Curl?](http://plus4070.github.io/nhn%20entertainment%20devdays/Curl.html)
 
 <br>
@@ -175,9 +175,9 @@ DNS 서버에 조회하기 위해서 서버에 메세지를 보내고 거기에�
 
 ##### Django #####
 
-`Django`는 파이썬으로 만들어진 무료 오픈소스 웹 어플리케이션 프레임워크이다.
+`Django`는 파이썬으로 만들어진 무료 오픈소스 웹 어플리케이션 프레임워크이다. <br>
 참고 :
-[이 밤의 끝을 장고](http://recall2300.github.io/django/2016/03/21/02/")
+[이 밤의 끝을 장고](http://recall2300.github.io/django/2016/03/21/02/") <br>
 [지아코 말고 지앙고](http://recall2300.github.io/django/2016/03/21/03/)
 
 <br>
@@ -264,7 +264,7 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 ##### GroboUtils #####
 
-`GroboUtils`는 JUnit의 확장판 같은 느낌의 유틸성 클래스로, JUnit의 세 가지 주요 이슈(Integration test, Multi-threaded test, Hierarchy test)를 보완하기 위해서 만들어진 오픈소스 프로젝트를 말한다.(공식사이트 : https://community.oracle.com/docs/DOC-982943)
+`GroboUtils`는 JUnit의 확장판 같은 느낌의 유틸성 클래스로, JUnit의 세 가지 주요 이슈(Integration test, Multi-threaded test, Hierarchy test)를 보완하기 위해서 만들어진 오픈소스 프로젝트를 말한다.(공식사이트 : https://community.oracle.com/docs/DOC-982943) <br>
 참고 : [GroboUtil을 이용한 JUnit 멀티쓰레드 테스트](http://plus4070.github.io/nhn%20entertainment%20devdays/GroboUtils.html)
 
 <br>
@@ -293,6 +293,8 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 위의 `HTTP`에 보안 계층인 `SSL/TLS`를 추가한 프로토콜. 웹 서버가 브라우저에게 인증서를 제공함으로써 보안성 있는 통신을 할 수 있도록 한다. 사용자는 접속을 허용하기 전에 인증서 수락 여부를 결정할 수 있음.
 
+<br>
+
 ## I ##
 
 ##### IE-CC Filtering #####
@@ -318,14 +320,14 @@ IE에서의 CSS 출력 버그문제를 해결하기 위해 MS에서 제시한 �
 
 ##### JSON #####
 
-`JSON(JavaScript Object Notation)`은 경량의 DATA 교환 형식이다. 이 형식은 사람이 읽고 쓰기에 용이하며, 기계가 분석하고 생성함에도 용이하다.
+`JSON(JavaScript Object Notation)`은 경량의 DATA 교환 형식이다. 이 형식은 사람이 읽고 쓰기에 용이하며, 기계가 분석하고 생성함에도 용이하다. <br>
 참고 : [JSON?](http://plus4070.github.io/new%20things/JSON.html)
 
 <br>
 
 ##### JVM #####
 
-Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를 실행할 수 있는 주체이다. 쉽게 말해서 자바를 코딩하고 실행하기 위해서 필요한 가상의 컴퓨터라고 생각하면 된다. `JVM`은 운영체제에 의존적이므로 사용하는 OS에 맞는 `JVM`을 설치해야 한다.
+Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를 실행할 수 있는 주체이다. 쉽게 말해서 자바를 코딩하고 실행하기 위해서 필요한 가상의 컴퓨터라고 생각하면 된다. `JVM`은 운영체제에 의존적이므로 사용하는 OS에 맞는 `JVM`을 설치해야 한다. <br>
 참고 : [JVM?](http://plus4070.github.io/nhn%20entertainment%20devdays/JVM.html)
 
 <br>
@@ -343,6 +345,8 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 <br>
 
 ## K ##
+
+<br>
 
 ## L ##
 
@@ -382,7 +386,7 @@ Java Virtual Machine의 약자로, 자바 바이트코드, `.class`파일을 를
 
 ##### Node.js #####
 
-구글의 V8 자바스크립트 엔진을 기본으로 하여 이를 실행시키는 개발 프레임워크이다. 웹 서버와 서버 측 스크립트, 그리고 지원하는 모든 웹 애플리케이션 기능을 포함한 서버 측 코드의 대부분을 `Node.js`로 작성할 수 있다.
+구글의 V8 자바스크립트 엔진을 기본으로 하여 이를 실행시키는 개발 프레임워크이다. 웹 서버와 서버 측 스크립트, 그리고 지원하는 모든 웹 애플리케이션 기능을 포함한 서버 측 코드의 대부분을 `Node.js`로 작성할 수 있다. <br>
 참고 : [Node.js?](http://plus4070.github.io/nhn%20entertainment%20devdays/Node.js.html)
 
 <br>
@@ -465,6 +469,8 @@ OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드
 
 ## Q ##
 
+<br>
+
 ## R ##
 
 ##### Rendering engine #####
@@ -488,9 +494,10 @@ Role & Responsibility 역할과 책임
 ##### rpm #####
 
 `Redhat Package Manager`의 약자로, 리눅스에서 사용하는 패키지관리 유틸을 의미한다. 대표적인 명령어는 아래와 같다.
-- 패키지 설치시 #rpm -ivh 패키지이름 
-- 패키지 업그레이드시 #rpm -Uvh 패키지이름 
-- 패키지 삭제시 #rpm -e 패키지이름
+
+- `#rpm -ivh 패키지이름` : 패키지 설치시 
+- `#rpm -Uvh 패키지이름` : 패키지 업그레이드시 
+- `#rpm -e 패키지이름` : 패키지 삭제시
 
 <br>
 
@@ -498,8 +505,8 @@ Role & Responsibility 역할과 책임
 
 ##### Sandbox #####
 
-Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이다. 악의적인 사이트나 시스템 파괴 소프트웨어를 접할 때 이를 막아주는 역할을 한다.
-참고 : http://www.20thingsilearned.com/en-US/browser-protection/3
+Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이다. 악의적인 사이트나 시스템 파괴 소프트웨어를 접할 때 이를 막아주는 역할을 한다. <br>
+참고 : [20ThingsIlearned](http://www.20thingsilearned.com/en-US/browser-protection/3)
 
 <br>
 
@@ -517,7 +524,7 @@ Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이
 
 ##### <span id="staf_des">STAF</span> #####
 
-`Software Test Automation Flatform`의 약자로, 분산환경 테스트 자동화를 위한 프레임워크. 다양한 분산환경에 미리 실행되어있는 `STAFProc`을 통해 통신을 하는 구조이다.
+`Software Test Automation Flatform`의 약자로, 분산환경 테스트 자동화를 위한 프레임워크. 다양한 분산환경에 미리 실행되어있는 `STAFProc`을 통해 통신을 하는 구조이다. <br>
 참고 : [STAF?](http://plus4070.github.io/nhn%20entertainment%20devdays/STAF.html)
 
 <br>
@@ -525,21 +532,21 @@ Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이
 ##### Selenium #####
 
 `Selenium`은 테스트 코드 실행으로 브라우저에서의 액션을 테스트 할 수 있게 해주는 테스팅 도구다.
-`Selenium IDE`로 브라우저 상에서의 액션을 녹화해서 테스트 코드를 생성할 수 있으며, 그 테스트 코드를 Eclipse나 IntelliJ 같은 IDE의 런타임에서 JUnit 테스트와 같은 방식으로 실행해서 브라우저 상에서의 액션을 재생할 수 있다.
+`Selenium IDE`로 브라우저 상에서의 액션을 녹화해서 테스트 코드를 생성할 수 있으며, 그 테스트 코드를 Eclipse나 IntelliJ 같은 IDE의 런타임에서 JUnit 테스트와 같은 방식으로 실행해서 브라우저 상에서의 액션을 재생할 수 있다. <br>
 참고 : [Selenium?](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenium.html)
 
 <br>
 
 ##### Session #####
 
-`세션(Session)`이란 일정 시간동안 같은 사용자(정확하게 브라우저를 말한다)로 부터 들어오는 일련의 요구를 하나의 상태로 보고 그 상태를 일정하게 유지시키는 기술이다. 즉, 방문가자가 웹서버에 접속해 있는 상태를 하나의 단위로 보고 `Session`이라고 칭한다는 것.
+`세션(Session)`이란 일정 시간동안 같은 사용자(정확하게 브라우저를 말한다)로 부터 들어오는 일련의 요구를 하나의 상태로 보고 그 상태를 일정하게 유지시키는 기술이다. 즉, 방문자가 웹서버에 접속해 있는 상태를 하나의 단위로 보고 `Session`이라고 칭한다는 것.
 
 <br>
 
 ##### Selenide #####
 
-`Selenium`를 기반으로 만들어진 Test Automation Framwork. `Selenium`에 비해 유동적인 API와 Ajax 등을 지원한다.
-참고 : http://selenide.org/, [Selenide?](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenide.html)
+`Selenium`를 기반으로 만들어진 Test Automation Framwork. `Selenium`에 비해 유동적인 API와 Ajax 등을 지원한다. <br>
+참고 : [Selenide Org](http://selenide.org/), [Selenide?](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenide.html)
 
 <br>
 
@@ -563,7 +570,7 @@ Stateless protocol은 어떠한 이전 요청과도 무관한 각각의 요청�
 
 ##### Singleton #####
 
-`Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다.
+`Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다. <br>
 참고 : [Singleton?](http://plus4070.github.io/nhn%20entertainment%20devdays/Singleton.html)
 
 <br>
@@ -578,8 +585,8 @@ Code에서 문서를 만들어내는 tool.
 
 ##### TDD #####
 
-`Test-Driven Development(TDD)`는 테스트를 먼저 작성하고 그 테스트를 통과하는 실제 구현체를 작성하는 방식으로 개발을 진행한다. 여기서 주의할 점은, `TDD`는 테스트코드를 작성하는 것이 목적이 아니라, 설계가 적합한지를 테스트를 통해 확인한다는 것이다.
-참고 : [STAF?](http://plus4070.github.io/nhn%20entertainment%20devdays/TDD.html)
+`Test-Driven Development(TDD)`는 테스트를 먼저 작성하고 그 테스트를 통과하는 실제 구현체를 작성하는 방식으로 개발을 진행한다. 여기서 주의할 점은, `TDD`는 테스트코드를 작성하는 것이 목적이 아니라, 설계가 적합한지를 테스트를 통해 확인한다는 것이다. <br>
+참고 : [TDD?](http://plus4070.github.io/nhn%20entertainment%20devdays/TDD.html)
 
 <br>
 
@@ -606,14 +613,14 @@ Code에서 문서를 만들어내는 tool.
 <br>
 
 ##### virtualenv #####
-독립적인 `python`환경을 만드는데 사용되는 툴.
-참고 : https://pypi.python.org/pypi/virtualenv
+독립적인 `python`환경을 만드는데 사용되는 툴. <br>
+참고 : [virtualenv](https://pypi.python.org/pypi/virtualenv)
 
 <br>
 
 ##### Virtual Machine #####
 
-`Virtual Machine(VM)`은 컴퓨팅 환경을 소프트웨어로 구현한 것, 즉 컴퓨터를 가상으로 하나 생성하는 소프트웨어이다. 이 가상환경에 OS를 설치하거나 응용프로그램을 설치할 수 있다. VM은 <a id="system_vm_des>System Virtual Machine</a>과 <a id="process_vm_machine>Process Virtual Machine</a>으로 나뉜다.
+`Virtual Machine(VM)`은 컴퓨팅 환경을 소프트웨어로 구현한 것, 즉 컴퓨터를 가상으로 하나 생성하는 소프트웨어이다. 이 가상환경에 OS를 설치하거나 응용프로그램을 설치할 수 있다. VM은 `System Virtual Machine`과 `Process Virtual Machine`으로 나뉜다.
 
 <br>
 
@@ -641,21 +648,21 @@ Code에서 문서를 만들어내는 tool.
 
 ##### XPath #####
 
-`XPath`는 `Selenium`에서 `CSS Seletor`와 함께 가장 많이 사용하는 방법 중 하나이다. 성능면으로 `CSS Selector`를 더 권장한다.
+`XPath`는 `Selenium`에서 `CSS Seletor`와 함께 가장 많이 사용하는 방법 중 하나이다. 성능면으로 `CSS Selector`를 더 권장한다. <br>
 참고 : [XPath?](http://plus4070.github.io/nhn%20entertainment%20devdays/Xpath.html)
 
 <br>
 
 ##### Xvfb #####
 
-`xvfb` 는 X virtual framebuffer의 약어. Display 수단과 물리적 입력장치가 없는 서버에서 가상의 브라우저를 띄울 수 있게 한다.
+`xvfb` 는 X virtual framebuffer의 약어. Display 수단과 물리적 입력장치가 없는 서버에서 가상의 브라우저를 띄울 수 있게 한다. <br>
 참고 : [Xvfb(X Virtual Frame Buffer)?](http://plus4070.github.io/nhn%20entertainment%20devdays/Xvfb.html)
 
 <br>
 
 ##### Xamarin #####
 
-`Xamarin`은 Android와 iOS앱을 동시에 개발할 수 있게 만들어주는 크로스 플랫폼 개발환경이다. C# 기반으로 되어있으며 Android와 iOS의 대부분의 기능을 사용할 수 있게 해준다.
+`Xamarin`은 Android와 iOS앱을 동시에 개발할 수 있게 만들어주는 크로스 플랫폼 개발환경이다. C# 기반으로 되어있으며 Android와 iOS의 대부분의 기능을 사용할 수 있게 해준다. <br>
 참고 : [Xamarin-Realm](https://realm.io/kr/news/introducing-xamarin/)
 
 <br>
@@ -664,7 +671,7 @@ Code에서 문서를 만들어내는 tool.
  
 ##### Yum #####
 
-`Yellowdog Updater, Modified`의 약자로 RPM기반의 시스템(Redhat계열)을 위한 자동 업데이터이자 패키지 설치, 삭제도구 이다. RPM과 별개라고 생각하기보다는 RPM패키지를 설치하는 편리한 툴이라고 생각하면 된다.
+`Yellowdog Updater, Modified`의 약자로 RPM기반의 시스템(Redhat계열)을 위한 자동 업데이터이자 패키지 설치, 삭제도구 이다. RPM과 별개라고 생각하기보다는 RPM패키지를 설치하는 편리한 툴이라고 생각하면 된다. <br>
 참고 : [Xvfb(X Virtual Frame Buffer)?](http://plus4070.github.io/nhn%20entertainment%20devdays/Yum.html)
 
 <br>
