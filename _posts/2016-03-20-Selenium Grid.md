@@ -17,8 +17,9 @@ description: Selenium을 쓰려면 분산환경으로 써야지!
 
 <br>
 
-`Selenium Gird`는 `Jenkins`에 플러그인으로 설치하여 사용할 수 있는데, plug-in을 추가하는 방법은 아래의 업무를 참조한다.
-참고 : [호기심천국/53 Jenkins에 Selenium Grid 플러그인 추가하기](dooray://1387695619080878080/tasks/1648879732394050623 "closed")
+`Selenium Gird`는 `Jenkins`에 플러그인으로 설치하여 사용할 수 있는데, plug-in을 추가하는 방법은 아래의 포스트를 참조한다.
+
+참고 : [Jenkins에 Selenium Grid 플러그인 추가하기](http://plus4070.github.io/nhn%20entertainment%20devdays/Selenium-Grid-with-Jenkins.html)
 
 <br>
 

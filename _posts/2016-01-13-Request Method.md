@@ -34,9 +34,9 @@ Response Header는 응답하는 Protocol/Version, 상태, 상태설명 으로 �
 ### 메소드의 종류 ###
 
     Method     = "OPTIONS"                ; Section 9.2
-               | "GET"                    ; Section 9.3   <-
+               | "GET"                    ; Section 9.3  
                | "HEAD"                   ; Section 9.4
-               | "POST"                   ; Section 9.5   <-
+               | "POST"                   ; Section 9.5  
                | "PUT"                    ; Section 9.6
                | "DELETE"                 ; Section 9.7
                | "TRACE"                  ; Section 9.8

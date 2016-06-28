@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selenium?
+title: Selenium IDE?
 categories: [NHN Entertainment DevDays]
 tags: [Selenium, Automation, Test, Firefox, plug-in]
 comments: true
@@ -16,7 +16,7 @@ description: Selenium??? 그게뭔데
 
 `Selenium`을 사용하기 위해서는 아래와 같은 `dependency`를 추가시켜 주어야 한다.
 
-```
+```xml
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -71,3 +71,5 @@ Firefox 오른쪽 상단에 위치한 `Selenium IDE`아이콘을 클릭하여 �
 ### Selenium Test 전체 과정 ###
 
 `Selenium Test`는 위와 같이 브라우저에서의 동작을 바탕으로 만들어진 코드에 추가적인 부분을 작성하여 진행한다. 작성된 코드는 Eclipse와 같은 개발도구에서 JUnit을 테스트 하듯이 Selenium으로 테스트를 진행하면 된다.
+
+- Selenium IDE를 통한 테스트 수행 > 생산된 코드 수정 > 허브와 노드 등록 후 테스트 수행
