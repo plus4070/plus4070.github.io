@@ -62,26 +62,26 @@ Parameter로 서로 다른 Input을 넣어주고 이를 테스트할 수 있도�
 2. `@Parameters` 애노테이션을 이용하여 데이터의 집합을 클래스에 넘겨주도록 한다.
 
 ```java
-  @Parameterized.Parameters
-  public static Collection primeNumbers() {
-      return Arrays.asList(new Object[][] {
-          { 2, true },
-          { 6, false },
-          { 19, true },
-          { 22, false },
-          { 23, true }
-      });
-  }
-  ```
+@Parameterized.Parameters
+public static Collection primeNumbers() {
+  return Arrays.asList(new Object[][] {
+      { 2, true },
+      { 6, false },
+      { 19, true },
+      { 22, false },
+      { 23, true }
+  });
+}
+```
 
 3. `@Parameters`애노테이션을 붙인 데이터 집합의 열과 같은 타입을 가지는 생성자를 public으로 선언한다.
 4. 데이터 집합의 각 행을 변수로 선언한다.
 
 ```java
 public PrimeNumberCheckerTest(Integer inputNumber, Boolean expectedResult) {
-      this.inputNumber = inputNumber;
-      this.expectedResult = expectedResult;
-  }    
+  this.inputNumber = inputNumber;
+  this.expectedResult = expectedResult;
+}    
 ```
 
 5. 생성한 변수를 이용하여 테스트를 진행한다.

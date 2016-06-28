@@ -62,10 +62,10 @@ Javascript에는 `instanceof`뿐만 아니라 `typeof`라는 키워드가 존재
 "foo" instanceof Object; // === false
 true instanceof Boolean; // === false
 true instanceof Object; // === false
- 
+
 [0,1] instanceof Array; // === true
 {0:1} instanceof Object; // === true
- 
+
 var color1 = new String("red");
 var color2 = "red";
 color1 == color2; // === true
@@ -77,7 +77,7 @@ color2 instanceof String; // === ?
 
 <br>
 
-```
+```javascript
 "foo".constructor instanceof String; // === false
 "foo".constructor === String; // === true?!
 ```
