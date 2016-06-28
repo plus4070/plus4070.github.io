@@ -638,7 +638,7 @@ Code에서 문서를 만들어내는 tool.
 
 <br>
 
-##### <span id="worker_des>worker</span> #####
+##### <span id="worker_des">worker</span> #####
 
 `Apache MPM`모듈의 요청 처리방식 중 하나로, 하나의 프로세스당 여러개의 worker스레드를 사용한다. 스레드 방식이기 때문에 메모리를 공유, 통신량이 많은 서버에 적당하다. 멀티스레드에서 발생할 수 있는 race condition에 대한 주의가 필요함
 
