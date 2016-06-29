@@ -162,6 +162,12 @@ Customer Service 혹은 Customer Satisfaction. 둘 다 고객지원, FAQ 같은 
 
 <br>
 
+##### Cookie free domain #####
+
+.js나 .png 등과 같이 쿠키에 정보를 담을 필요가 없는 정적파일들은 요청을 주고받을 때, 쿠키정보를 교환하지 않도록 별도의 도메인을 세팅하는 것을 말한다. 페이지의 응답속도향상을 위해서 사용.
+
+<br>
+
 ## D ##
 
 ##### Design Pattern #####
@@ -670,6 +676,12 @@ Stateless protocol은 어떠한 이전 요청과도 무관한 각각의 요청�
 
 `Singleton`이란 하나의 오브젝트를 만들고 이를 여러 `Servlet`에서 공유해서 사용하는 디자인 패턴이다. <br>
 참고 : [Singleton?](http://plus4070.github.io/nhn%20entertainment%20devdays/Singleton.html)
+
+<br>
+
+##### SPOF #####
+
+`Single Point Of Failure(SPOF)`의 준말로, 한 부분이 죽었을 경우에 시스템 전체가 죽게되는 부분을 말한다. 예를 들어, 웹 서버하나와 데이터베이스가 1:1로 연결이 되있는 경우, 서버와 데이터베이스 둘다 SPOF에 해당한다.
 
 <br>
 
