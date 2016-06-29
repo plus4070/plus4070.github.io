@@ -71,7 +71,7 @@ boolean isNumberExist = numberList.stream()
 ```java
 Optional<Integer> value = list.stream()
 	.filter(number->number.intValue() > 3)
-    .findAny();
+	.findAny();
 ```
 
 <br>
