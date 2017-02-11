@@ -619,6 +619,12 @@ Docker와 같이 애플리케이션을 패키징하는 플랫폼이지만 Docker
 
 <br>
 
+##### Predicate #####
+
+`Predicate`는 인수로 값을 받아 true나 false를 반환하는 함수를 말함. 자바 8에서 Function<T, U> 같이 코드를 구현할 수 있지만 Predicate<T>를 사용하는 것이 더 표준적인 방식임.
+
+<br>
+
 ##### Protocol #####
 
 통신 동작의 규칙을 정한 것을 `Protocol`이라고 부른다.
@@ -708,6 +714,12 @@ Chrome 브라우저나 IE 브라우저에서 사용되고있는 보호 계층이
 
 `Software Test Automation Flatform`의 약자로, 분산환경 테스트 자동화를 위한 프레임워크. 다양한 분산환경에 미리 실행되어있는 `STAFProc`을 통해 통신을 하는 구조이다. <br>
 참고 : [STAF?](http://plus4070.github.io/nhn%20entertainment%20devdays/STAF.html)
+
+<br>
+
+##### Stream #####
+
+`Stream`이란 한 번에 한 개씩 만들어지는 연속적인 데이터 항목들의 모임.
 
 <br>
 
