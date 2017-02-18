@@ -11,11 +11,11 @@ description: !
 
 세션 공유를 위해서 여러 가지의 방법을 찾던 중(Filter, Interceptor 등), `HandlerMethodArgumentResolver`를 이용해서 해결하는 방법을 생각하게 되었습니다.
 
-### HandlerMethodArgumentResolver?
+### HandlerMethodArgumentResolver? ###
 
 `HandlerMethodArgumentResolver`는 스프링 3.1 버전에서부터 추가된 인터페이스 입니다. 원래는 `WebArgumentResolver`라는 이름이었는데, 바뀌었다고 합니다!
 
-### 그래서 Resolver가 뭔데?
+### 그래서 Resolver가 뭔데? ###
 
 Resolver는 **해결자** 라는 뜻을 가집니다. 굳이 끼워맞추자면... ArgumentResolver는 인자들을 해결해주는 역할을 한다고 생각할 수 있겟네요.
 
@@ -32,7 +32,7 @@ Resolver는 **해결자** 라는 뜻을 가집니다. 굳이 끼워맞추자면.
 
 이제 ArgumentResolver를 하나 만들어봅시당
 
-### 적용방법
+### 적용방법 ###
 
 1. 우선, ArgumentResolver로 사용할 클래스를 만들어 줍니다. 저희는 User 관련 매핑을 해주기 위해서 `UserArgumentResolver`라는 이름으로 클래스를 만들어주었습니다.
 
