@@ -36,8 +36,6 @@ Resolver는 **해결자** 라는 뜻을 가집니다. 굳이 끼워맞추자면.
 
 1. 우선, ArgumentResolver로 사용할 클래스를 만들어 줍니다. 저희는 User 관련 매핑을 해주기 위해서 `UserArgumentResolver`라는 이름으로 클래스를 만들어주었습니다.
 
-![Inline-image-2017-02-17 17.47.33.169.png](/files/1887581617492960691)
-
 2. Servlet 관련 설정을 하는 xml(저희조는 `mvc-config.xml`)에 추가한 Resolver의 경로를 적어줍니다.
 
 ```xml
