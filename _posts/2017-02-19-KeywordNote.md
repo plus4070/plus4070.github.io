@@ -93,7 +93,11 @@ Bean들의 집합. Spring에서 사용되는 Bean들을 관리하는 역할을 �
 
 ##### Bean #####
 
-Servlet에서 Java 객체를 가지고 와서 사용하기 위해 작성된 객체를 말함. Default는 Singleton이며 추가 설정을 통해 Prototype으로도 생성할 수 있다.
+Servlet에서 Java 객체를 가지고 와서 사용하기 위해 작성된 객체를 말함. Default는 Singleton이며 추가 설정을 통해 Prototype으로도 생성할 수 있다. 스프링에서는 내부적으로 Bean 객체를 Reflection API를 이용해 빈 정의에 나오는 클래스 이름을 가지고 빈 오브젝트를 생성한다.
+
+```java
+Date now = (Date) Class.forName("java.util.Date").newInstance();
+```
 
 <br>
 
@@ -240,6 +244,12 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 
 <br>
 
+##### Dynamic proxy #####
+
+`Dynamic Proxy`는 런타임시에 Proxy Factory에 의해서 만들어지는 Proxy용 오브젝트다. Dynamic proxy는 Target 오브젝트와 같은 타입으로 만들어지기 때문에, Proxy factory에 인터페이스의 정보만 전달해주면 해당 타입에 맞는 Proxy 오브젝트를 만들어준다.
+
+<br>
+
 ## E ##
 
 ##### Entity #####
@@ -259,6 +269,12 @@ Spring MVC에 요청이 들어오면 제일 먼저 받아서 처리하는 프론
 ##### Factory Method Pattern #####
 
 Template Method Pattern과 비슷하게 상속을 통해 기능을 확장하게 하는 패턴을 말한다. 서브 클래스에서 오브젝트 생성 방법과 클래스를 결정할 수 있도록 미리 정의해둔 메소드를 팩토리 메소드라고 하고, 이 방식을 통해 오브젝트 생성 방법을 나머지 로직, 즉 슈퍼클래스의 기본 코드에서 독립시키는 방법을 `팩토리 매소드 패턴`이라고 한다.
+
+<br>
+
+##### Factory bean #####
+
+`Factory bean`이란, 스프링을 대신해서 오브젝트의 생성로직을 담당하도록 만들어진 특별한 Bean을 말한다. Factory bean을 만드는 방법에는 여러 가지가 있는데, 가장 간단한 방법은 FactoryBean 인터페이스를 구현하는 것이다.
 
 <br>
 
@@ -637,6 +653,12 @@ OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드
 
 <br>
 
+##### Proxy pattern #####
+
+`Proxy pattern`이란, 실제 사용되는 객체의 생성이나 레퍼런스를 대리인, 즉 Proxy 객체가 정해주는 디자인 패턴을 말한다. 쉽게 이야기하면 사용자는 Proxy를 Target 오브젝트 대신에 넘겨주고, 실제 Target 오브젝트가 필요할때는 Proxy객체가 Target 오브젝트를 필요할 때 생성해서 사용하도록 하는 방법이다. Proxy pattern은 실제 Target 오브젝트의 기능에는 관여하지 않으면서, Target 오브젝트에 접근하지 위한 방법을 제어해주는 역할을 한다.
+
+<br>
+
 ##### PointCut #####
 
 어떤 클래스의 어느 JoinPoint를 사용할 것인지를 결정하는 선택 기능. 와일드카드를 이용해 선택을 한다.
@@ -658,6 +680,12 @@ OS 내부에 내장된 네트워크 제어용 소프트웨어, '프로토콜 드
 ##### React Native #####
 
 페이스북이 후원하는 오픈소스 프로젝트로 크로스 플랫폼과 네이트브 툴의 두 가지 장점을 제공한다. React Javascript Library를 이용해 네이티브 애플리케이션을 구축하는 프레임워크인 `React Native`를 통해 애플리케이션 로직은 자바스크립트로 동작하면서도 iOS와 안드로이드 모두에서 사용자 인터페이스를 완전한 네이티브 상태로 유지한다.
+
+<br>
+
+##### Reflection #####
+
+Java 코드 자체를 추상화해서 접근하도록 만든 것을 말한다. `Method` 객체를 받아와 해당 메소드의 정보를 확인하거나 조작할 수 있다. 받아온 메소드의 참조는 `invoke()` 메소드를 이용해서 실행시킬 수 있다.
 
 <br>
 
