@@ -99,3 +99,26 @@ public boolean supportsParameter(MethodParameter parameter) {
     ...
 }
 ```
+
+<br>
+
+##### 추가 #####
+
+UserArgumentResolver에서 매핑한 유저의 정보를 매번 컨트롤러 메소드에서 `model.addAttribute("authentication", user);` 와 같은 방법으로 하는 것 보다는, 어차피 ArgumentResolver에 인자로 `ModelAndViewContainer`가 넘어오기 때문에 여기에 값을 세팅해줄수 있지 않을까 생각하게되었고! 값이 성공적으로 들어가는것을 확인하였습니다.
+
+로그인 여부를 따로 어트리뷰트로 주어서 관리하시는 분들에게 유용할 것 같네요.
+
+
+**UserArgumentResolver**
+```java
+Map<String, Object> mav = mavContainer.getModel();
+
+mav.put("model_test", "goooooood");
+```
+
+**main.jsp**
+```html
+<div id="honor_top">
+    <div class="caption">명예의 전당 ${model_test }</div>
+</div>
+```
