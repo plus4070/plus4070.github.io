@@ -36,7 +36,7 @@ description: !
 
 ##### Advice #####
 
-JoinPoint에 삽입되어져 동작할 수 있는 코드를 말한다.
+JoinPoint에 삽입되어져 동작할 수 있는 코드를 말한다. ProxyFactoryBean을 만드는 과정에서 타깃 오브젝트에 적용하는 부가기능을 담은 오브젝트를 스프링에서는 Advice라고 함.
 
 <br>
 
