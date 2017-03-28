@@ -717,6 +717,13 @@ Role & Responsibility 역할과 책임
 
 <br>
 
+##### rsync #####
+
+백업 혹은 미러링 시스템을 만들기 위해서 사용되는 유닉스, 리눅스에서 사용하는 툴. 사용법이 간단하고 성능 상의 장점이 있어서 많이 사용된다. 같은 파일 시스템 뿐만 아니라 원격에 있는 시스템에서도 Directory를 복사할 수 있다.
+참고 : [rsync?](http://plus4070.github.io/nhn%20entertainment%20devdays/rsync.html)
+
+<br>
+
 ## S ##
 
 ##### Sandbox #####
