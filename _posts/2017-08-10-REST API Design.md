@@ -117,5 +117,6 @@ GET https://library.googleapis.com/v1/shelves/-/books?filter=xxx
 
 출시 전, API 버전에 alpha나 beta와 같은 키워드가 들어가게되면, suffix로 숫자를 붙여서 동일한 버전에서의 구분을 해주어야 함.
 
-![Inline-image-2017-08-10 18.32.30.577.png](https://github.com/plus4070/plus4070.github.io/raw/master/img/2017-08-10-REST-API-Design/inline-image1.png?raw=true)
+![image.png](https://github.com/plus4070/plus4070.github.io/raw/master/img/2017-08-10-REST-API-Design/image.png?raw=true)
+
 출처: https://cloud.google.com/apis/design/versioning
