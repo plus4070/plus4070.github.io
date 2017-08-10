@@ -97,7 +97,7 @@ API는 간단해야 함. 아래 몇 가지의 조건을 충족해야 좋은 API�
 
 `Delete` 메소드를 통해 자원을 삭제한 경우에 반환할 것이 없다고 하더라도, Empty Response를 반환해야 한다. 현재는 아무런 데이터를 반환할 필요가 없다고 하더라도 차후에 애플리케이션이 확장되고 추가기능이 붙는다면 어떤 데이터가 필요로 할지 모르기 때문.
 
-필드가 특정 영역을 지정하는 경우, open에는 열려있고, close에는 닫혀있는 half-open 상태로 필드의 범위가 지정되어야 한다. ex) [start_key, end_key), [first, last)
+필드가 특정 영역을 지정하는 경우, open에는 열려있고, close에는 닫혀있는 half-open 상태로 필드의 범위가 지정되어야 한다. ex) \[start_key, end_key), \[first, last)
 
 ##### List Sub-Collections
 
