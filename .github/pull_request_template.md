@@ -1,7 +1,3 @@
----
-title: 'custom title'
----
-
 ### Dooray Issue
 - 
 
